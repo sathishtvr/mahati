@@ -73,7 +73,7 @@ function handle_contact_form() {
             echo json_encode(['success' => false, 'message' => 'Please fill in all required fields.']);
             exit;
         }
-        header('Location: ' . SITE_URL . '/mahati/pages/contact.php?error=missing_fields');
+        header('Location: ' . SITE_URL . '/pages/contact.php?error=missing_fields');
         exit;
     }
     
@@ -82,7 +82,7 @@ function handle_contact_form() {
             echo json_encode(['success' => false, 'message' => 'Please enter a valid email address.']);
             exit;
         }
-        header('Location: ' . SITE_URL . '/mahati/pages/contact.php?error=invalid_email');
+        header('Location: ' . SITE_URL . '/pages/contact.php?error=invalid_email');
         exit;
     }
     
@@ -214,14 +214,14 @@ function handle_contact_form() {
             echo json_encode(['success' => true, 'message' => 'Thank you! Your project inquiry has been sent successfully with detailed PDF attachment.']);
             exit;
         }
-        header('Location: ' . SITE_URL . '/mahati/pages/contact.php?success=1');
+        header('Location: ' . SITE_URL . '/pages/contact.php?success=1');
         exit;
     } else {
         if ($is_ajax) {
             echo json_encode(['success' => false, 'message' => 'Sorry, there was an error sending your message. Please try again.']);
             exit;
         }
-        header('Location: ' . SITE_URL . '/mahati/pages/contact.php?error=send_failed');
+        header('Location: ' . SITE_URL . '/pages/contact.php?error=send_failed');
         exit;
     }
 }

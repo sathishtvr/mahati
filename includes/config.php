@@ -11,7 +11,7 @@ if (!defined('SECURE_ACCESS')) {
 
 // Site Configuration
 define('SITE_NAME', 'Mahati Interiors');
-define('SITE_URL', 'http://localhost/Home/mahati');
+define('SITE_URL', 'http://localhost/mahati');
 define('SITE_EMAIL', 'zathishkumar@gmail.com');
 define('SITE_PHONE', '+91 98765 43210');
 
@@ -20,7 +20,7 @@ define('BASE_PATH', dirname(__DIR__));
 define('INCLUDES_PATH', BASE_PATH . '/includes/');
 define('PAGES_PATH', BASE_PATH . '/pages/');
 define('TEMPLATES_PATH', BASE_PATH . '/templates/');
-define('ASSETS_PATH', '/Home/mahati/assets/');
+define('ASSETS_PATH', '/mahati/assets/');
 
 // Image Path Configuration
 define('IMAGES_PATH', ASSETS_PATH . 'images/');
