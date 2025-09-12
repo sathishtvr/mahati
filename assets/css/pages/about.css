@@ -1,0 +1,584 @@
+/*
+ * About Page Styles - Mahati Interior Design
+ * Modern, trendy design with clean animations and responsive layout
+ * Author: Mahati Design Team
+ * Last Updated: 2025
+ */
+
+/* ===== ABOUT HERO SECTION ===== */
+.about-hero {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.hero-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(44, 44, 44, 0.8), rgba(255, 107, 53, 0.6));
+    z-index: -1;
+}
+
+.about-hero .hero-content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero .hero-content p {
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.9;
+    line-height: 1.6;
+}
+
+/* ===== OUR STORY SECTION ===== */
+.our-story {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.our-story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.story-content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 1.5rem;
+}
+
+.story-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ff6b35;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.story-content p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.story-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.story-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.story-text h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b35, #f7931e);
+    border-radius: 2px;
+}
+
+.story-text .lead {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #ff6b35;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.story-text p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.story-image img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== MISSION & VISION SECTION ===== */
+.mission-vision {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #f8f4f0 0%, #fff 100%);
+}
+
+.mv-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.mv-card {
+    background: #fff;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.mv-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b35, #f7931e);
+}
+
+.mv-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.mv-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.mv-card h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 1.5rem;
+}
+
+.mv-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* ===== TEAM SECTION ===== */
+.team {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.section-header h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+}
+
+.section-header p {
+    font-size: 1.2rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+}
+
+.team-member {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.member-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.member-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.member-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 107, 53, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.member-image:hover .member-overlay {
+    opacity: 1;
+}
+
+.member-image:hover img {
+    transform: scale(1.1);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a {
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+.social-links a:hover {
+    background: #fff;
+    color: #ff6b35;
+    transform: scale(1.1);
+}
+
+.member-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.member-info h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 0.5rem;
+}
+
+.member-info .role {
+    color: #ff6b35;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.member-info .bio {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+
+/* ===== PROCESS SECTION ===== */
+.process {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+    color: #fff;
+}
+
+.process .section-header h2 {
+    color: #fff;
+}
+
+.process .section-header p {
+    color: #ccc;
+}
+
+.process-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, #ff6b35, #f7931e);
+    transform: translateX(-50%);
+}
+
+.process-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.process-step:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.step-number {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    margin: 0 2rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.step-content h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ff6b35;
+}
+
+.step-content p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+/* ===== AWARDS SECTION ===== */
+.awards {
+    padding: 50px 0;
+    background: #fff;
+}
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.award-item {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: linear-gradient(135deg, #f8f4f0 0%, #fff 100%);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.award-item:hover {
+    transform: translateY(-10px);
+    border-color: #ff6b35;
+    box-shadow: 0 20px 40px rgba(255, 107, 53, 0.1);
+}
+
+.award-icon {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 2rem;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.award-item h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+}
+
+.award-item p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Tablet Styles */
+@media (max-width: 768px) {
+    .about-hero {
+        height: 60vh;
+    }
+    
+    .about-hero .hero-content h1 {
+        font-size: 3rem;
+    }
+    
+    .about-hero .hero-content p {
+        font-size: 1.1rem;
+    }
+    
+    .our-story-grid {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .story-image {
+        order: -1;
+    }
+    
+    .story-image img {
+        height: 300px;
+    }
+    
+    .mv-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+    }
+    
+    .process-timeline::before {
+        left: 30px;
+    }
+    
+    .process-step {
+        flex-direction: row !important;
+        padding-left: 80px;
+    }
+    
+    .process-step:nth-child(even) {
+        flex-direction: row !important;
+    }
+    
+    .step-number {
+        position: absolute;
+        left: 0;
+    }
+    
+    .step-content {
+        margin-left: 0;
+    }
+    
+    .awards-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+    .about-hero {
+        height: 50vh;
+    }
+    
+    .about-hero .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .about-hero .hero-content p {
+        font-size: 1rem;
+    }
+    
+    .story-content h2,
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .story-content h3 {
+        font-size: 1.3rem;
+    }
+    
+    .story-content p {
+        font-size: 1rem;
+    }
+    
+    .story-image img {
+        height: 250px;
+    }
+    
+    .mv-card,
+    .award-item {
+        padding: 2rem 1.5rem;
+    }
+    
+    .step-content {
+        padding: 1.5rem;
+    }
+    
+    .member-info {
+        padding: 1.5rem;
+    }
+}
+
