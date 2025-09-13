@@ -124,43 +124,4 @@ if (!defined('SECURE_ACCESS')) {
     </div>
 </section>
 
-<!-- Process Section -->
-<section class="process section">
-    <div class="container">
-        <div class="section-header" data-aos="fade-up">
-            <h2>Our Design Process</h2>
-            <p>Mahati's systematic approach to creating your perfect space</p>
-        </div>
-        <div class="process-timeline">
-            <div class="process-step" data-aos="fade-right">
-                <div class="step-number">01</div>
-                <div class="step-content">
-                    <h4>Discovery & Consultation</h4>
-                    <p>Mahati begins with an in-depth consultation to understand your lifestyle, preferences, and project goals.</p>
-                </div>
-            </div>
-            <div class="process-step" data-aos="fade-left">
-                <div class="step-number">02</div>
-                <div class="step-content">
-                    <h4>Concept Development</h4>
-                    <p>Our team creates initial design concepts, mood boards, and space planning solutions tailored to your needs under Mahati's creative guidance.</p>
-                </div>
-            </div>
-            <div class="process-step" data-aos="fade-right">
-                <div class="step-number">03</div>
-                <div class="step-content">
-                    <h4>Design Refinement</h4>
-                    <p>Mahati refines the design based on your feedback, creating detailed plans and 3D visualizations.</p>
-                </div>
-            </div>
-            <div class="process-step" data-aos="fade-left">
-                <div class="step-number">04</div>
-                <div class="step-content">
-                    <h4>Implementation</h4>
-                    <p>Our project management team oversees the entire implementation process under Mahati's supervision, ensuring quality and timeline adherence.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 

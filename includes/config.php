@@ -52,6 +52,10 @@ define('DB_PASS', 'your_password');
 define('DB_CHARSET', 'utf8mb4');
 */
 
+// YouTube Video Configuration
+define('YOUTUBE_VIDEO_1', 'https://www.youtube.com/embed/SsY_TOxlzlI?si=D9Qz0UvNBCDo2vf1');
+define('YOUTUBE_VIDEO_2', 'https://www.youtube.com/embed/oz7wmF51Gwk');
+
 // Error Reporting (set to false in production)
 define('DEBUG_MODE', true);
 

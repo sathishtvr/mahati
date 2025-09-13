@@ -61,7 +61,7 @@ if (!defined('SECURE_ACCESS')) {
             <div class="container">
                 <div class="nav-brand">
                     <a href="<?php echo page_url(); ?>">
-                        <img src="<?php echo ASSETS_PATH; ?>images/logo.png" alt="Mahati Interiors" class="logo">
+                        <img src="<?php echo ASSETS_PATH; ?>images/logo_new.svg" alt="Mahati Interiors" class="logo">
                     </a>
                 </div>
                 <ul class="nav-menu">

@@ -53,22 +53,26 @@ html::-webkit-scrollbar-thumb:hover {
 /* WhatsApp Float Button */
 .whatsapp-float {
     position: fixed;
-    right: 20px;
-    top: 50%;
+    right: 10px;
+    top: 65%;
     transform: translateY(-50%);
     z-index: 1000;
 }
 
+.whatsapp-float a i{
+    margin-left: 2px;
+}
+ 
 .whatsapp-float a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     background: #25d366;
     border-radius: 50%;
     color: white;
-    font-size: 28px;
+    font-size: 20px;
     text-decoration: none;
     box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
     transition: all 0.3s ease;
@@ -151,6 +155,156 @@ a {
 .mt-2 { margin-top: 2rem; }
 .mt-3 { margin-top: 3rem; }
 
+/* YouTube Videos Section */
+.youtube-videos {
+    background-color: #f8f9fa;
+}
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.video-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-info {
+    padding: 1.5rem;
+}
+
+.video-info h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.video-info p {
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* ===== PROCESS SECTION ===== */
+.process {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+    color: #fff;
+}
+
+.process .section-header h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;    
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.process .section-header p {
+    color: #ccc;
+    text-align: center;
+    font-size: 1.2rem;    
+    margin-bottom: 4rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.process-timeline {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.process-timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, #ff6b35, #f7931e);
+    transform: translateX(-50%);
+}
+
+.process-step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.process-step:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.step-number {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ff6b35, #f7931e);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.step-content {
+    flex: 1;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    margin: 0 2rem;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.step-content h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ff6b35;
+}
+
+.step-content p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .container {
@@ -202,5 +356,15 @@ a {
     .specialized-grid, .portfolio-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    
+    .videos-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .video-card {
+        margin: 0 auto;
+        max-width: 100%;
     }
 }
