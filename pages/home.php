@@ -12,7 +12,7 @@ if (!defined('SECURE_ACCESS')) {
 <!-- Hero Section with Slider -->
 <section class="hero section" id="home">
     <div class="hero-slider">
-        <div class="slide active" style="background-image: url('<?php echo ASSETS_PATH; ?>images/gallary.jpg')">
+        <div class="slide active" style="background-image: url('<?php echo ASSETS_PATH; ?>images/carusel_br1_1_1.jpg')">
             <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h1 data-aos="fade-up" data-aos-duration="1000">MAHATI INTERIORS</h1>
@@ -25,7 +25,7 @@ if (!defined('SECURE_ACCESS')) {
                 <a href="<?php echo page_url('portfolio'); ?>" class="cta-button" data-aos="fade-up" data-aos-delay="400">Explore Designs</a>
             </div>
         </div>
-        <div class="slide" style="background-image: url('<?php echo ASSETS_PATH; ?>images/gallary1.jpg')">
+        <div class="slide" style="background-image: url('<?php echo ASSETS_PATH; ?>images/carusel_br_3_1_1.jpg')">
             <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h1 data-aos="fade-up" data-aos-duration="1000">Elegant Interiors</h1>
@@ -38,7 +38,7 @@ if (!defined('SECURE_ACCESS')) {
                 <a href="<?php echo page_url('portfolio'); ?>" class="cta-button" data-aos="fade-up" data-aos-delay="400">View Portfolio</a>
             </div>
         </div>
-        <div class="slide" style="background-image: url('<?php echo ASSETS_PATH; ?>images/gallary2.jpg')">
+        <div class="slide" style="background-image: url('<?php echo ASSETS_PATH; ?>images/carusel_kitchen_1.jpg')">
             <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h1 data-aos="fade-up" data-aos-duration="1000">Luxury Homes</h1>
@@ -51,7 +51,7 @@ if (!defined('SECURE_ACCESS')) {
                 <a href="<?php echo page_url('contact'); ?>" class="cta-button" data-aos="fade-up" data-aos-delay="400">Get Quote</a>
             </div>
         </div>
-        <div class="slide" style="background-image: url('<?php echo ASSETS_PATH; ?>images/gallary3.jpg')">
+        <div class="slide" style="background-image: url('<?php echo ASSETS_PATH; ?>images/carusel_tv_1.jpg')">
             <div class="slide-overlay"></div>
             <div class="slide-content">
                 <h1 data-aos="fade-up" data-aos-duration="1000">Dream Spaces</h1>
@@ -342,6 +342,50 @@ if (!defined('SECURE_ACCESS')) {
     </div>
 </section>
 
+<!-- YouTube Videos Section -->
+<section class="youtube-videos section">
+    <div class="container">
+        <div class="section-title" data-aos="fade-up">
+            <h2>Watch Our Work</h2>
+            <p>See our interior design process and completed projects in action</p>
+        </div>
+        
+        <div class="videos-grid">
+            <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="<?php echo YOUTUBE_VIDEO_1; ?>" 
+                        title="Mahati Interiors - Project Showcase 1"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h3>Modern Home Transformation</h3>
+                    <p>Watch how we transformed this modern home with contemporary design elements and premium finishes.</p>
+                </div>
+            </div>
+            
+            <div class="video-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="<?php echo YOUTUBE_VIDEO_2; ?>" 
+                        title="Mahati Interiors - Project Showcase 2"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-info">
+                    <h3>Luxury Interior Design Process</h3>
+                    <p>Get an inside look at our design process from concept to completion for luxury residential projects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Platform Stats Section -->
 <section class="platform-stats-section section">
     <div class="container">
@@ -351,7 +395,7 @@ if (!defined('SECURE_ACCESS')) {
                 <p>Join thousands of satisfied customers across Karnataka, Tamil Nadu, and Andhra Pradesh who have transformed their homes with our professional interior design services.</p>
             </div>
             <div class="platform-image">
-                <img src="<?php echo ASSETS_PATH; ?>images/gallary.jpg" alt="Modern Interior">
+                <img src="<?php echo ASSETS_PATH; ?>images/gallary4.jpg" alt="Modern Interior">
             </div>
         </div>
         <div class="platform-stats">
@@ -491,11 +535,52 @@ if (!defined('SECURE_ACCESS')) {
                 <a href="<?php echo page_url('contact'); ?>" class="contact-button">Contact Us</a>
             </div>
             <div class="questions-image" data-aos="fade-left">
-                <img src="<?php echo ASSETS_PATH; ?>images/gallary.jpg" alt="Interior Design Consultation">
+                <img src="<?php echo ASSETS_PATH; ?>images/carusel_kitchen_1.jpg" alt="Interior Design Consultation">
             </div>
         </div>
     </div>
 </section>
+
+<!-- Process Section -->
+<section class="process section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Our Design Process</h2>
+            <p>Mahati's systematic approach to creating your perfect space</p>
+        </div>
+        <div class="process-timeline">
+            <div class="process-step" data-aos="fade-right">
+                <div class="step-number">01</div>
+                <div class="step-content">
+                    <h4>Discovery & Consultation</h4>
+                    <p>Mahati begins with an in-depth consultation to understand your lifestyle, preferences, and project goals.</p>
+                </div>
+            </div>
+            <div class="process-step" data-aos="fade-left">
+                <div class="step-number">02</div>
+                <div class="step-content">
+                    <h4>Concept Development</h4>
+                    <p>Our team creates initial design concepts, mood boards, and space planning solutions tailored to your needs under Mahati's creative guidance.</p>
+                </div>
+            </div>
+            <div class="process-step" data-aos="fade-right">
+                <div class="step-number">03</div>
+                <div class="step-content">
+                    <h4>Design Refinement</h4>
+                    <p>Mahati refines the design based on your feedback, creating detailed plans and 3D visualizations.</p>
+                </div>
+            </div>
+            <div class="process-step" data-aos="fade-left">
+                <div class="step-number">04</div>
+                <div class="step-content">
+                    <h4>Implementation</h4>
+                    <p>Our project management team oversees the entire implementation process under Mahati's supervision, ensuring quality and timeline adherence.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Customer Review Section -->
 <section class="reviews section">

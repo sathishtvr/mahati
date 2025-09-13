@@ -98,7 +98,7 @@ if (!defined('SECURE_ACCESS')) {
                     <div class="budget-card">
                         <div class="budget-image">
                             <img src="<?php echo ASSETS_PATH; ?>images/modern-living-room-interior.jpg" alt="2BHK Interior">
-                            <div class="budget-badge">Starting at 3.5TL*</div>
+                            <div class="budget-badge">Starting at 3.5L*</div>
                         </div>
                         <div class="budget-content">
                             <h3>Contemporary 2BHK Apartment Design with Modern Kitchen</h3>
@@ -109,9 +109,9 @@ if (!defined('SECURE_ACCESS')) {
                                 <div class="budget-bhk">
                                     <strong>BHK:</strong> 2 BHK
                                 </div>
-                                <div class="budget-pricing">
+                                <!-- <div class="budget-pricing">
                                     <strong>Pricing:</strong> 20 - 30 Lakhs
-                                </div>
+                                </div> -->
                             </div>
                             <button class="budget-cta-btn">Get This Design</button>
                         </div>
@@ -121,7 +121,7 @@ if (!defined('SECURE_ACCESS')) {
                     <div class="budget-card">
                         <div class="budget-image">
                             <img src="<?php echo ASSETS_PATH; ?>images/luxury-bedroom-design.jpg" alt="3BHK Interior">
-                            <div class="budget-badge">Starting at 4.2TL*</div>
+                            <div class="budget-badge">Starting at 4.2L*</div>
                         </div>
                         <div class="budget-content">
                             <h3>3BHK Independent House Design in Hyderabad with Parallel Kitchen</h3>
@@ -132,9 +132,9 @@ if (!defined('SECURE_ACCESS')) {
                                 <div class="budget-bhk">
                                     <strong>BHK:</strong> 3 BHK
                                 </div>
-                                <div class="budget-pricing">
+                                <!-- <div class="budget-pricing">
                                     <strong>Pricing:</strong> 20 - 30 Lakhs
-                                </div>
+                                </div> -->
                             </div>
                             <button class="budget-cta-btn">Get This Design</button>
                         </div>
@@ -144,7 +144,7 @@ if (!defined('SECURE_ACCESS')) {
                     <div class="budget-card">
                         <div class="budget-image">
                             <img src="<?php echo ASSETS_PATH; ?>images/dining-room-classic-layout.jpg" alt="4BHK Interior">
-                            <div class="budget-badge">Starting at 4.8TL*</div>
+                            <div class="budget-badge">Starting at 4.8L*</div>
                         </div>
                         <div class="budget-content">
                             <h3>Contemporary 4BHK Apartment Design with Built-In TV Unit</h3>
@@ -155,9 +155,9 @@ if (!defined('SECURE_ACCESS')) {
                                 <div class="budget-bhk">
                                     <strong>BHK:</strong> 4 BHK
                                 </div>
-                                <div class="budget-pricing">
+                                <!-- <div class="budget-pricing">
                                     <strong>Pricing:</strong> 20 - 30 Lakhs
-                                </div>
+                                </div> -->
                             </div>
                             <button class="budget-cta-btn">Get This Design</button>
                         </div>
@@ -175,6 +175,56 @@ if (!defined('SECURE_ACCESS')) {
                 </button>
             </div>
         </div>
+    </div>
+</section>
+
+<!-- Estimate Section -->
+<section class="estimate-section section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Get an estimate for your Bangalore home</h2>
+            <p>Calculate the approximate cost of doing up your interiors.</p>
+        </div>
+        
+        <div class="estimate-cards" data-aos="fade-up" data-aos-delay="100">
+            <!-- Full Home Card -->
+            <div class="estimate-card">
+                <div class="estimate-image">
+                    <img src="<?php echo ASSETS_PATH; ?>images/carousel-5.jpg" alt="Full Home Interior" loading="lazy">
+                </div>
+                <div class="estimate-card-content">
+                    <h3>Full Home</h3>
+                    <p>End-to-end interior design for your entire home with premium materials and expert craftsmanship.</p>
+                    <a href="#" class="estimate-btn">CALCULATE <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Kitchen Card -->
+            <div class="estimate-card">
+                <div class="estimate-image">
+                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen-contemporary-design.jpg" alt="Kitchen Design" loading="lazy">
+                </div>
+                <div class="estimate-card-content">
+                    <h3>Kitchen</h3>
+                    <p>Modern modular kitchen design with smart storage solutions and premium finishes.</p>
+                    <a href="#" class="estimate-btn">CALCULATE <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+            
+            <!-- Wardrobe Card -->
+            <div class="estimate-card">
+                <div class="estimate-image">
+                    <img src="<?php echo ASSETS_PATH; ?>images/dining-room-classic-layout.jpg" alt="Wardrobe Design" loading="lazy">
+                </div>
+                <div class="estimate-card-content">
+                    <h3>Wardrobe</h3>
+                    <p>Custom wardrobe designs tailored to your space and storage needs.</p>
+                    <a href="#" class="estimate-btn">CALCULATE <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        
     </div>
 </section>
 
@@ -250,52 +300,42 @@ if (!defined('SECURE_ACCESS')) {
     </div>
 </section>
 
-<!-- Process Section -->
-<section class="service-process section">
-    <div class="container">
-        <div class="section-header" data-aos="fade-up">
-            <h2>Our Service Process</h2>
-            <p>A streamlined approach to deliver exceptional results</p>
-        </div>
-        
-        <div class="process-steps">
-            <div class="process-step" data-aos="zoom-in">
-                <div class="step-number">1</div>
-                <div class="step-icon">
-                    <i class="fas fa-comments"></i>
+
+
+
+<section class="workflow-section">
+    <div class="workflow-steps" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+            <h3>Our Service Process</h3>
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="step-number">1</div>
+                    <div class="step-text">Meet a designer</div>
                 </div>
-                <h4>Consultation</h4>
-                <p>Initial meeting to understand your vision, requirements, and budget.</p>
+                <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="timeline-step">
+                    <div class="step-number">2</div>
+                    <div class="step-text">(10% payment)</br>Book Mahati</div>
+                </div>
+                <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="timeline-step">
+                    <div class="step-number">3</div>
+                    <div class="step-text">(60% payment)</br>Execution begins</div>
+                </div>
+                <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="timeline-step">
+                    <div class="step-number">4</div>
+                    <div class="step-text">(100% payment)</br>Final Installations</div>
+                </div>
+                <div class="timeline-arrow"><i class="fas fa-chevron-right"></i></div>
+                <div class="timeline-step">
+                    <div class="step-number">5</div>
+                    <div class="step-text">Move in and enjoy!</div>
+                </div>
             </div>
-            
-            <div class="process-step" data-aos="zoom-in" data-aos-delay="200">
-                <div class="step-number">2</div>
-                <div class="step-icon">
-                    <i class="fas fa-pencil-ruler"></i>
-                </div>
-                <h4>Design Development</h4>
-                <p>Creating detailed design concepts, mood boards, and 3D visualizations.</p>
-            </div>
-            
-            <div class="process-step" data-aos="zoom-in" data-aos-delay="400">
-                <div class="step-number">3</div>
-                <div class="step-icon">
-                    <i class="fas fa-handshake"></i>
-                </div>
-                <h4>Approval & Planning</h4>
-                <p>Finalizing designs, selecting materials, and creating implementation timeline.</p>
-            </div>
-            
-            <div class="process-step" data-aos="zoom-in" data-aos-delay="600">
-                <div class="step-number">4</div>
-                <div class="step-icon">
-                    <i class="fas fa-hammer"></i>
-                </div>
-                <h4>Implementation</h4>
-                <p>Professional execution with quality control and regular progress updates.</p>
+            <div class="text-center">
+                <a href="<?php echo page_url('contact'); ?>" class="consultation-btn">BOOK A CONSULTATION</a>
             </div>
         </div>
     </div>
 </section>
-
-
