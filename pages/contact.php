@@ -189,6 +189,26 @@ if (!defined('SECURE_ACCESS')) {
     </div>
 </section>
 
+<!-- Connect With Us Section -->
+<section class="connect-section section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Connect with us</h2>
+            <p>Have questions or ready to start your project? We're here to help!</p>
+        </div>
+        <div class="connect-buttons" data-aos="fade-up" data-aos-delay="200">
+            <a href="tel:+918045678900" class="connect-btn phone-btn">
+                <i class="fas fa-phone"></i>
+                <span>CALL NOW</span>
+            </a>
+            <a href="https://wa.me/918045678900" target="_blank" class="connect-btn whatsapp-btn">
+                <i class="fab fa-whatsapp"></i>
+                <span>WHATSAPP</span>
+            </a>
+        </div>
+    </div>
+</section>
+
 <!-- FAQ Section -->
 <section class="faq-section section">
     <div class="container">
@@ -266,4 +286,4 @@ if (!defined('SECURE_ACCESS')) {
     </div>
 </div>
 
-<script src="<?php echo ASSETS_PATH; ?>/js/contact.js"></script>
+<script src="<?php echo ASSETS_PATH; ?>/js/contact.js" defer></script>

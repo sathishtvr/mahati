@@ -676,7 +676,6 @@
 
 .faq-answer {
     padding: 0 2rem 2rem;
-    display: none;
     background: #f8f9fa;
 }
 
@@ -1055,6 +1054,91 @@
     box-shadow: 0 10px 20px rgba(255, 107, 53, 0.3);
 }
 
+/* ===== CONNECT SECTION ===== */
+.connect-section {
+    padding: 6rem 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.connect-section .section-header h2 {
+    color: #1a1a1a;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.connect-section .section-header p {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    line-height: 1.6;
+}
+
+.connect-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.connect-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
+    min-width: 180px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.connect-btn i {
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+
+.connect-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.phone-btn {
+    background-color: #1a1a1a;
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.phone-btn:hover {
+    background-color: #333;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .connect-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .connect-btn {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
 /* ===== MAP SECTION ===== */
 .map-section {
     padding: 8rem 0 4rem;
@@ -1144,6 +1228,7 @@
     justify-content: space-between;
     align-items: center;
     transition: all 0.3s ease;
+    background: #fff;
 }
 
 .faq-question:hover {
@@ -1172,13 +1257,16 @@
 .faq-answer {
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: max-height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
     background: #f8f4f0;
+    padding: 0 2rem;
+    
 }
 
 .faq-item.active .faq-answer {
-    max-height: 200px;
+    max-height: 500px;
     padding: 0 2rem 2rem;
+    opacity: 1;
 }
 
 .faq-answer p {
@@ -1186,6 +1274,7 @@
     line-height: 1.6;
     margin: 0;
     padding-top: 1rem;
+    opacity: 1 !important; /* Ensure text is always visible */
 }
 
 /* ===== SUCCESS MODAL ===== */

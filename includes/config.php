@@ -11,7 +11,8 @@ if (!defined('SECURE_ACCESS')) {
 
 // Site Configuration
 define('SITE_NAME', 'Mahati Interiors');
-define('SITE_URL', 'http://localhost/mahati');
+//define('SITE_URL', 'http://localhost/mahati');
+define('SITE_URL', 'demo.iwebweaver.in/mahati');
 define('SITE_EMAIL', 'zathishkumar@gmail.com');
 define('SITE_PHONE', '+91 98765 43210');
 

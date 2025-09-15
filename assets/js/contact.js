@@ -234,28 +234,36 @@ function submitForm() {
 }
 
 /**
- * Initialize FAQ functionality
+ * Initialize FAQ functionality with event delegation
  */
 function initFAQ() {
-    const faqItems = document.querySelectorAll('.faq-item');
+    console.log('Initializing FAQ functionality...');
     
-    faqItems.forEach(item => {
-        const question = item.querySelector('.faq-question');
+    // Use event delegation for better performance
+    document.addEventListener('click', function(e) {
+        const faqQuestion = e.target.closest('.faq-question');
         
-        question.addEventListener('click', function() {
-            const isActive = item.classList.contains('active');
+        if (faqQuestion) {
+            e.preventDefault();
+            const faqItem = faqQuestion.parentElement;
+            const isActive = faqItem.classList.contains('active');
             
-            // Close all FAQ items
-            faqItems.forEach(faqItem => {
-                faqItem.classList.remove('active');
+            console.log('FAQ item clicked, isActive:', isActive);
+            
+            // Close all FAQ items first
+            document.querySelectorAll('.faq-item').forEach(item => {
+                item.classList.remove('active');
             });
             
-            // Open clicked item if it wasn't active
+            // Toggle the clicked item if it wasn't active
             if (!isActive) {
-                item.classList.add('active');
+                faqItem.classList.add('active');
+                console.log('FAQ item expanded');
             }
-        });
+        }
     });
+    
+    console.log('FAQ initialization complete');
 }
 
 /**
