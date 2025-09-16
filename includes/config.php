@@ -11,8 +11,8 @@ if (!defined('SECURE_ACCESS')) {
 
 // Site Configuration
 define('SITE_NAME', 'Mahati Interiors');
-//define('SITE_URL', 'http://localhost/mahati');
-define('SITE_URL', 'demo.iwebweaver.in/mahati');
+// Site URL Configuration
+define('SITE_URL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . str_replace('//', '/', dirname($_SERVER['PHP_SELF']) . '/'));
 define('SITE_EMAIL', 'zathishkumar@gmail.com');
 define('SITE_PHONE', '+91 98765 43210');
 
@@ -21,7 +21,8 @@ define('BASE_PATH', dirname(__DIR__));
 define('INCLUDES_PATH', BASE_PATH . '/includes/');
 define('PAGES_PATH', BASE_PATH . '/pages/');
 define('TEMPLATES_PATH', BASE_PATH . '/templates/');
-define('ASSETS_PATH', '/mahati/assets/');
+// Assets path relative to web root
+define('ASSETS_PATH', str_replace('//', '/', dirname($_SERVER['PHP_SELF']) . '/assets/'));
 
 // Image Path Configuration
 define('IMAGES_PATH', ASSETS_PATH . 'images/');
@@ -144,15 +145,14 @@ function nav_class($page_name) {
 }
 
 /**
- * Generate page URL
- * @param string $page
- * @return string
+ * Generate URL for a page
  */
 function page_url($page = '') {
+    $base_url = rtrim(SITE_URL, '/');
     if (empty($page) || $page === DEFAULT_PAGE) {
-        return SITE_URL;
+        return $base_url;
     }
-    return SITE_URL . '?page=' . urlencode($page);
+    return $base_url . '?page=' . urlencode($page);
 }
 
 /**
