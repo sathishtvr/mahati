@@ -37,7 +37,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <strong>Address:</strong> 42, MG Road, Brigade Gateway<br>Bangalore, Karnataka 560025
+                                <strong>Address:</strong> No 68, 4th cross, 9th main road<br>Muneshwar layout, Vaderahalli<br>Vidyaranyapura, Bangalore<br>Karnataka - 560097
                             </div>
                         </div>
                         
@@ -46,7 +46,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="contact-text">
-                                <strong>Phone:</strong> +91 80 4567 8900
+                                <strong>Phone:</strong> +91 98455 49933
                             </div>
                         </div>
                         
@@ -55,7 +55,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div class="contact-text">
-                                <strong>Email:</strong> <?php echo SITE_EMAIL; ?>
+                                <strong>Email:</strong> Mahatiinterior@gmail.com
                             </div>
                         </div>
                         

@@ -48,9 +48,9 @@ if (!defined('SECURE_ACCESS')) {
                 <!-- Contact Info -->
                 <div class="footer-section">
                     <h3>Contact Info</h3>
-                    <p><i class="fas fa-phone"></i> <?php echo format_phone(SITE_PHONE); ?></p>
-                    <p><i class="fas fa-envelope"></i> zathishkumar@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Design Street<br>Interior City, IC 12345</p>
+                    <p><i class="fas fa-phone"></i> +91 98455 49933</p>
+                    <p><i class="fas fa-envelope"></i> Mahatiinterior@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> No 68, 4th cross, 9th main road<br>Muneshwar layout, Vaderahalli<br>Vidyaranyapura, Bangalore<br>Karnataka - 560097</p>
                     <p style="margin-top: 1rem; font-size: 0.9rem; color: #ccc;">Business Hours: Mon-Sat 9AM-6PM</p>
                 </div>
             </div>
