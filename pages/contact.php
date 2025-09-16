@@ -206,6 +206,10 @@ if (!defined('SECURE_ACCESS')) {
                 <i class="fab fa-whatsapp"></i>
                 <span>WHATSAPP</span>
             </a>
+            <a href="https://www.instagram.com/mahati_interior?igsh=MTA5ZTgzMTJkMjBjNw%3D%3D&utm_source=qr" target="_blank" class="connect-btn instagram-btn">
+                <i class="fab fa-instagram"></i>
+                <span>INSTAGRAM</span>
+            </a>
         </div>
     </div>
 </section>

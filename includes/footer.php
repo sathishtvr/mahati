@@ -61,9 +61,12 @@ if (!defined('SECURE_ACCESS')) {
         </div>
     </footer>
 
-    <!-- WhatsApp Float Button -->
-    <div class="whatsapp-float">
-        <a href="https://wa.me/<?php echo str_replace(['+', '-', ' ', '(', ')'], '', SITE_PHONE); ?>?text=Hi%20Mahati%20Interiors,%20I%20would%20like%20to%20discuss%20my%20interior%20design%20project." target="_blank" aria-label="WhatsApp Chat">
+    <!-- Social Media Float Buttons -->
+    <div class="social-float">
+        <a href="https://www.instagram.com/mahati_interior?igsh=MTA5ZTgzMTJkMjBjNw%3D%3D&utm_source=qr" class="instagram-float" target="_blank" aria-label="Instagram Profile">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://wa.me/<?php echo str_replace(['+', '-', ' ', '(', ')'], '', SITE_PHONE); ?>?text=Hi%20Mahati%20Interiors,%20I%20would%20like%20to%20discuss%20my%20interior%20design%20project." class="whatsapp-float" target="_blank" aria-label="WhatsApp Chat">
             <i class="fab fa-whatsapp"></i>
         </a>
     </div>

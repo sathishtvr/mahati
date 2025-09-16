@@ -1057,13 +1057,8 @@
 /* ===== CONNECT SECTION ===== */
 .connect-section {
     padding: 6rem 0;
-    background-color: #f9f9f9;
+    background: #f8f9fa;
     text-align: center;
-}
-
-.connect-section .section-header h2 {
-    color: #1a1a1a;
-    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -1117,12 +1112,16 @@
     background-color: #25D366;
 }
 
-.phone-btn:hover {
-    background-color: #333;
-}
-
 .whatsapp-btn:hover {
     background-color: #128C7E;
+}
+
+.instagram-btn {
+    background-color: #E4405F;  /* Instagram brand color */
+}
+
+.instagram-btn:hover {
+    background-color: #D42D5C;  /* Slightly darker shade on hover */
 }
 
 /* Responsive styles */
