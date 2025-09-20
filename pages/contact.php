@@ -77,7 +77,7 @@ if (!defined('SECURE_ACCESS')) {
                     <h2>Start Your Project</h2>
                     <p>Fill out the form below and we'll get back to you within 24 hours</p>
                     
-                    <form class="contact-form" id="contactForm" method="POST" action="<?php echo SITE_URL; ?>/mahati/includes/form-handler.php">
+                    <form class="contact-form" id="contactForm" method="POST" action="<?php echo SITE_URL; ?>/includes/form-handler.php">
                         <input type="hidden" name="form_type" value="contact">
                         <input type="hidden" name="<?php echo CSRF_TOKEN_NAME; ?>" value="<?php echo generate_csrf_token(); ?>">
                         

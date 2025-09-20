@@ -16,6 +16,9 @@ function send_contact_email($formData, $pdfPath = null) {
         mkdir($dir, 0755, true);
     }
     
+    // Set recipient email
+    $to = 'zathishkumar@gmail.com';
+    
     // Format submission data
     $content = "=== CONTACT FORM SUBMISSION ===\n";
     $content .= "Submitted: " . date('F j, Y \a\t g:i A') . "\n";
@@ -57,12 +60,20 @@ function send_contact_email($formData, $pdfPath = null) {
     $content .= "\n" . str_repeat("=", 50) . "\n";
     
     // Save to file
-    $saved = file_put_contents($filepath, $content);
+    file_put_contents($filepath, $content);
     
-    // Log for debugging
-    error_log("Contact form saved to: {$filepath}");
+    // Send email with form data
+    $subject = "New Project Inquiry - " . ($formData['projectType'] ?? 'Website Form');
+    $headers = "From: " . ($formData['email'] ?? 'noreply@mahatiinteriors.com') . "\r\n";
+    $headers .= "Reply-To: " . ($formData['email'] ?? 'noreply@mahatiinteriors.com') . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
     
-    return $saved !== false;
+    // Send the email
+    $mail_sent = mail($to, $subject, $content, $headers);
+    
+    // Return true if mail was sent successfully, false otherwise
+    return $mail_sent;
 }
 
 /**
