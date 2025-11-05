@@ -15,7 +15,7 @@ if (!defined('SECURE_ACCESS')) {
         <div class="slide active" style="background-image: url('<?php echo ASSETS_PATH; ?>images/carusel_br1_1_1.jpg')">
             <div class="slide-overlay"></div>
             <div class="slide-content">
-                <h1 data-aos="fade-up" data-aos-duration="1000">MAHATI INTERIORS</h1>
+                <h1 data-aos="fade-up" data-aos-duration="1000">MAHATI INTERIOR</h1>
                 <p data-aos="fade-up" data-aos-delay="200">Celebrate living with modern design. End-to-end interiors for homes, villas, apartments & offices. 300+ projects delivered across Karnataka, Tamil Nadu & Andhra Pradesh.</p>
                 <div class="slide-features" data-aos="fade-up" data-aos-delay="300">
                     <span class="feature">✓ On-time delivery</span>
@@ -111,7 +111,7 @@ if (!defined('SECURE_ACCESS')) {
             </div>
             <div class="expertise-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="card-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-3.jpg" alt="Unique Concept" />
+                    <img src="<?php echo ASSETS_PATH; ?>images/unique.jpeg" alt="Unique Concept" />
                     <div class="card-overlay">
                         <h3>Unique Concept</h3>
                         <p class="card-category">Custom • Creative</p>
@@ -194,7 +194,7 @@ if (!defined('SECURE_ACCESS')) {
                 
                 <!-- Slide 3 -->
                 <div class="carousel-slide">
-                    <img src="<?php echo ASSETS_PATH; ?>images/mahati-interiors-office-space.jpg" alt="Corporate Office Design">
+                    <img src="<?php echo ASSETS_PATH; ?>images/corporate.jpeg" alt="Corporate Office Design">
                     <div class="carousel-overlay">
                         <div class="carousel-content">
                             <h3>Corporate Office</h3>
@@ -261,9 +261,16 @@ if (!defined('SECURE_ACCESS')) {
             <h2>Recent Projects</h2>
             <p>Take a look at some of our latest interior design transformations</p>
         </div>
+        <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="living-tv">Living & TV Units</button>
+            <button class="filter-btn" data-filter="bedroom-wardrobe">Bedrooms & Wardrobes</button>
+            <button class="filter-btn" data-filter="kitchen">Modular Kitchens</button>
+            <button class="filter-btn" data-filter="study-office">Study & Home-Office</button>
+        </div>
         
         <div class="portfolio-grid">
-            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-item living-tv" data-aos="fade-up" data-aos-delay="100">
                 <img src="<?php echo ASSETS_PATH; ?>images/modern-living-room-interior.jpg" alt="Modern Living Room">
                 <div class="portfolio-overlay">
                     <h3>Modern Living Room</h3>
@@ -271,7 +278,7 @@ if (!defined('SECURE_ACCESS')) {
                 </div>
             </div>
             
-            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item bedroom-wardrobe" data-aos="fade-up" data-aos-delay="200">
                 <img src="<?php echo ASSETS_PATH; ?>images/luxury-bedroom-design.jpg" alt="Luxury Bedroom">
                 <div class="portfolio-overlay">
                     <h3>Luxury Bedroom</h3>
@@ -279,11 +286,19 @@ if (!defined('SECURE_ACCESS')) {
                 </div>
             </div>
             
-            <div class="portfolio-item" data-aos="fade-up" data-aos-delay="300">
-                <img src="<?php echo ASSETS_PATH; ?>images/corporate-office-interior.jpg" alt="Office Space">
+            <div class="portfolio-item study-office" data-aos="fade-up" data-aos-delay="300">
+                <img src="<?php echo ASSETS_PATH; ?>images/corporate.jpeg" alt="Office Space">
                 <div class="portfolio-overlay">
                     <h3>Corporate Office</h3>
                     <p>Professional and inspiring workspace</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="400">
+                <img src="<?php echo ASSETS_PATH; ?>images/kitchen-contemporary-design.jpg" alt="Contemporary Kitchen">
+                <div class="portfolio-overlay">
+                    <h3>Contemporary Kitchen</h3>
+                    <p>Functional and stylish modular kitchen</p>
                 </div>
             </div>
         </div>
@@ -298,7 +313,7 @@ if (!defined('SECURE_ACCESS')) {
 <section class="section">
     <div class="container">
         <div class="section-title" data-aos="fade-up">
-            <h2>Why Mahati Interiors?</h2>
+            <h2>Why Mahati Interior?</h2>
             <p>Contemporary designs that are practical and durable with premium materials and turnkey execution</p>
         </div>
         
@@ -355,7 +370,7 @@ if (!defined('SECURE_ACCESS')) {
                 <div class="video-wrapper">
                     <iframe 
                         src="<?php echo YOUTUBE_VIDEO_1; ?>" 
-                        title="Mahati Interiors - Project Showcase 1"
+                        title="Mahati Interior - Project Showcase 1"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         allowfullscreen>
@@ -371,7 +386,7 @@ if (!defined('SECURE_ACCESS')) {
                 <div class="video-wrapper">
                     <iframe 
                         src="<?php echo YOUTUBE_VIDEO_2; ?>" 
-                        title="Mahati Interiors - Project Showcase 2"
+                        title="Mahati Interior - Project Showcase 2"
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         allowfullscreen>
@@ -506,7 +521,7 @@ if (!defined('SECURE_ACCESS')) {
             <div class="category-card" data-aos="fade-up" data-aos-delay="500">
                 <img src="<?php echo ASSETS_PATH; ?>images/mahati-interiors-office-space.jpg" alt="Office">
                 <div class="category-overlay">
-                    <h3>MAHATI INTERIORS</h3>
+                    <h3>MAHATI INTERIOR</h3>
                 </div>
             </div>
             <div class="category-card" data-aos="fade-up" data-aos-delay="600">

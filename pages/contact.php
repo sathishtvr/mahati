@@ -9,18 +9,6 @@ if (!defined('SECURE_ACCESS')) {
 }
 ?>
 
-<!-- Contact Hero Section -->
-<section class="contact-hero section">
-    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-3.jpg" alt="Contact Us" class="hero-bg-image">
-    <div class="hero-overlay"></div>
-    <div class="container">
-        <div class="hero-content" data-aos="fade-up">
-            <h1>Let's Design a Home You'll Love</h1>
-            <p>Book a Free Design Consultation - Tell us about your space, timeline, and budget. We'll create a personalized plan and handle everything end-to-end.</p>
-        </div>
-    </div>
-</section>
-
 <!-- Contact Form Section -->
 <section class="contact-main section">
     <div class="container">
@@ -184,7 +172,7 @@ if (!defined('SECURE_ACCESS')) {
                 allowfullscreen="" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade"
-                title="Mahati Interiors Location">
+                title="Mahati Interior Location">
             </iframe>
         </div>
     </div>

@@ -15,8 +15,31 @@ if (!defined('SECURE_ACCESS')) {
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content" data-aos="fade-up">
-            <h1>About Mahati Interiors</h1>
+            <h1>About Mahati Interior</h1>
             <p>Transforming spaces with innovative design and exceptional craftsmanship</p>
+        </div>
+    </div>
+</section>
+
+<section class="section founder-section">
+    <div class="container">
+        <div class="our-story-grid" data-aos="fade-up">
+            <div class="story-content">
+                <h2 class="founder-title">Founder & Creative Director</h2>
+                <h3 class="founder-name" style="margin-top: .5rem;">Anand M</h3>
+                <p class="founder-subtitle">Design visionary behind Mahati Interior</p>
+                <p>Anand M is the founder and creative force behind Mahati Interior, a distinguished interior design firm known for excellence and innovation. With over 10 years of industry experience and more than 200 successful projects, Anand has established himself as one of the best interior designers, delivering spaces that beautifully blend aesthetics with functionality.</p>
+                <p>Under Anand’s expert leadership, Mahati Interior offers comprehensive design and execution services, ranging from luxury residential to commercial projects. Anand’s hands-on approach and attention to detail ensure every project reflects the unique personality and lifestyle of clients while maintaining the highest standards of quality.</p>
+                <p>Renowned for his visionary design sensibility and ability to lead a skilled team, Anand M continues to push boundaries, creating inspiring environments that stand out in Bangalore’s competitive interior design landscape. Mahati Interior represents the pinnacle of craftsmanship, creativity, and client satisfaction.</p>
+                <ul class="founder-highlights">
+                    <li><i class="fas fa-award"></i> 10+ years of experience</li>
+                    <li><i class="fas fa-briefcase"></i> 200+ projects delivered</li>
+                    <li><i class="fas fa-city"></i> Bangalore • Residential & Commercial</li>
+                </ul>
+            </div>
+            <div class="story-image">
+                <img class="founder-image" src="<?php echo ASSETS_PATH; ?>images/founder.jpeg" alt="Founder - Anand M">
+            </div>
         </div>
     </div>
 </section>
@@ -73,7 +96,7 @@ if (!defined('SECURE_ACCESS')) {
 <section class="team section">
     <div class="container">
         <div class="section-header" data-aos="fade-up">
-            <h2>Why Mahati Interiors?</h2>
+            <h2>Why Mahati Interior?</h2>
             <p>Our team works passionately with the clients so as to achieve a magnificent end result which they will cherish for a lifetime</p>
         </div>
         <div class="why-shi-content">

@@ -39,7 +39,7 @@ if (!defined('SECURE_ACCESS')) {
     <div class="container">
         <div class="gallery-grid">
             <!-- Project 1 -->
-            <div class="portfolio-item residential luxury" data-aos="fade-up">
+            <div class="portfolio-item residential luxury living" data-aos="fade-up">
                 <div class="portfolio-image">
                     <img src="<?php echo ASSETS_PATH; ?>images/modern-living-room-interior.jpg" alt="Modern Living Room">
                     <div class="portfolio-overlay">
@@ -64,9 +64,9 @@ if (!defined('SECURE_ACCESS')) {
             </div>
             
             <!-- Project 2 -->
-            <div class="portfolio-item commercial modern" data-aos="fade-up" data-aos-delay="200">
+            <div class="portfolio-item commercial modern office" data-aos="fade-up" data-aos-delay="200">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/corporate-office-interior.jpg" alt="Office Space">
+                    <img src="<?php echo ASSETS_PATH; ?>images/corporate.jpeg" alt="Office Space">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Corporate Office</h3>
@@ -89,7 +89,7 @@ if (!defined('SECURE_ACCESS')) {
             </div>
             
             <!-- Project 3 -->
-            <div class="portfolio-item residential modern" data-aos="fade-up" data-aos-delay="400">
+            <div class="portfolio-item residential modern kitchen" data-aos="fade-up" data-aos-delay="400">
                 <div class="portfolio-image">
                     <img src="<?php echo ASSETS_PATH; ?>images/kitchen-contemporary-design.jpg" alt="Modern Kitchen">
                     <div class="portfolio-overlay">
@@ -114,7 +114,7 @@ if (!defined('SECURE_ACCESS')) {
             </div>
             
             <!-- Project 4 -->
-            <div class="portfolio-item luxury residential" data-aos="fade-up">
+            <div class="portfolio-item luxury residential bedroom" data-aos="fade-up">
                 <div class="portfolio-image">
                     <img src="<?php echo ASSETS_PATH; ?>images/luxury-bedroom-design.jpg" alt="Luxury Bedroom">
                     <div class="portfolio-overlay">
