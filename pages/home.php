@@ -262,43 +262,111 @@ if (!defined('SECURE_ACCESS')) {
             <p>Take a look at some of our latest interior design transformations</p>
         </div>
         <div class="portfolio-filters" data-aos="fade-up" data-aos-delay="100">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="living-tv">Living & TV Units</button>
-            <button class="filter-btn" data-filter="bedroom-wardrobe">Bedrooms & Wardrobes</button>
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="living">Living & TV Units</button>
+            <button class="filter-btn" data-filter="bedroom">Bedrooms & Wardrobes</button>
             <button class="filter-btn" data-filter="kitchen">Modular Kitchens</button>
-            <button class="filter-btn" data-filter="study-office">Study & Home-Office</button>
+            <button class="filter-btn" data-filter="office">Study & Home-Office</button>
         </div>
         
         <div class="portfolio-grid">
-            <div class="portfolio-item living-tv" data-aos="fade-up" data-aos-delay="100">
-                <img src="<?php echo ASSETS_PATH; ?>images/modern-living-room-interior.jpg" alt="Modern Living Room">
+            <!-- Living & TV Units - 3 Cards -->
+            <div class="portfolio-item living" data-aos="fade-up" data-aos-delay="100">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-living-1.jpg" alt="Modern Living Room">
                 <div class="portfolio-overlay">
                     <h3>Modern Living Room</h3>
-                    <p>Contemporary design with clean lines</p>
+                    <p>Contemporary Design</p>
                 </div>
             </div>
             
-            <div class="portfolio-item bedroom-wardrobe" data-aos="fade-up" data-aos-delay="200">
-                <img src="<?php echo ASSETS_PATH; ?>images/luxury-bedroom-design.jpg" alt="Luxury Bedroom">
+            <div class="portfolio-item living" data-aos="fade-up" data-aos-delay="150">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-living-2.jpg" alt="Classic TV Unit">
                 <div class="portfolio-overlay">
-                    <h3>Luxury Bedroom</h3>
-                    <p>Elegant and comfortable retreat</p>
+                    <h3>Classic TV Unit</h3>
+                    <p>Elegant & Functional</p>
                 </div>
             </div>
             
-            <div class="portfolio-item study-office" data-aos="fade-up" data-aos-delay="300">
-                <img src="<?php echo ASSETS_PATH; ?>images/corporate.jpeg" alt="Office Space">
+            <div class="portfolio-item living" data-aos="fade-up" data-aos-delay="200">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-living-3.jpg" alt="Premium Living Space">
                 <div class="portfolio-overlay">
-                    <h3>Corporate Office</h3>
-                    <p>Professional and inspiring workspace</p>
+                    <h3>Premium Living Space</h3>
+                    <p>Luxury Design</p>
                 </div>
             </div>
-
-            <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="400">
-                <img src="<?php echo ASSETS_PATH; ?>images/kitchen-contemporary-design.jpg" alt="Contemporary Kitchen">
+            
+            <!-- Bedrooms & Wardrobes - 3 Cards -->
+            <div class="portfolio-item bedroom" data-aos="fade-up" data-aos-delay="100">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-bedroom-1.jpg" alt="Master Bedroom">
                 <div class="portfolio-overlay">
-                    <h3>Contemporary Kitchen</h3>
-                    <p>Functional and stylish modular kitchen</p>
+                    <h3>Master Bedroom</h3>
+                    <p>Luxury & Comfort</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item bedroom" data-aos="fade-up" data-aos-delay="150">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-bedroom-2.jpg" alt="Cozy Bedroom">
+                <div class="portfolio-overlay">
+                    <h3>Cozy Bedroom</h3>
+                    <p>Warm & Inviting</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item bedroom" data-aos="fade-up" data-aos-delay="200">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-bedroom-3.jpg" alt="Walk-in Wardrobe">
+                <div class="portfolio-overlay">
+                    <h3>Walk-in Wardrobe</h3>
+                    <p>Custom Storage</p>
+                </div>
+            </div>
+            
+            <!-- Modular Kitchens - 3 Cards -->
+            <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="100">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-kitchen-1.jpg" alt="Modern Kitchen">
+                <div class="portfolio-overlay">
+                    <h3>Modern Kitchen</h3>
+                    <p>Contemporary & Functional</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="150">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-kitchen-2.jpg" alt="Classic Kitchen">
+                <div class="portfolio-overlay">
+                    <h3>Classic Kitchen</h3>
+                    <p>Timeless Elegance</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="200">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-kitchen-3.jpg" alt="Premium Kitchen">
+                <div class="portfolio-overlay">
+                    <h3>Premium Kitchen</h3>
+                    <p>Luxury Finishes</p>
+                </div>
+            </div>
+            
+            <!-- Study & Home-Office - 3 Cards -->
+            <div class="portfolio-item office" data-aos="fade-up" data-aos-delay="100">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-office-1.jpg" alt="Home Office">
+                <div class="portfolio-overlay">
+                    <h3>Home Office</h3>
+                    <p>Professional & Stylish</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item office" data-aos="fade-up" data-aos-delay="150">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-office-2.jpg" alt="Study Room">
+                <div class="portfolio-overlay">
+                    <h3>Study Room</h3>
+                    <p>Focused Design</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item office" data-aos="fade-up" data-aos-delay="200">
+                <img src="<?php echo ASSETS_PATH; ?>images/portfolio-office-3.jpg" alt="Creative Workspace">
+                <div class="portfolio-overlay">
+                    <h3>Creative Workspace</h3>
+                    <p>Inspiring Design</p>
                 </div>
             </div>
         </div>

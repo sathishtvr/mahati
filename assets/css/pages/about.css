@@ -103,6 +103,7 @@
 
 .story-image .founder-image {
     height: 480px;
+    object-position: top;
     filter: brightness(0.9) contrast(1.1) saturate(1.2);
     transition: filter 0.3s ease;
 }
@@ -460,10 +461,6 @@
         font-size: 3rem;
     }
     
-    .about-hero .hero-content p {
-        font-size: 1.1rem;
-    }
-    
     .our-story-grid {
         grid-template-columns: 1fr;
         gap: 3rem;
@@ -478,7 +475,8 @@
     }
     
     .story-image .founder-image {
-        height: 340px;
+        height: 420px;
+        object-position: 50% 40%;
     }
     
     .founder-section .story-image,
@@ -533,7 +531,8 @@
     }
     
     .story-image .founder-image {
-        height: 280px;
+        height: 461px;
+        object-position: 50% 35%;
     }
     
     .founder-section .story-image,

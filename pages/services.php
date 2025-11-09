@@ -190,7 +190,7 @@ if (!defined('SECURE_ACCESS')) {
             <!-- Full Home Card -->
             <div class="estimate-card">
                 <div class="estimate-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/carousel-5.jpg" alt="Full Home Interior" loading="lazy">
+                    <img src="<?php echo ASSETS_PATH; ?>images/fullofhome.jpeg" alt="Full Home Interior" loading="lazy">
                 </div>
                 <div class="estimate-card-content">
                     <h3>Full Home</h3>
@@ -214,7 +214,7 @@ if (!defined('SECURE_ACCESS')) {
             <!-- Wardrobe Card -->
             <div class="estimate-card">
                 <div class="estimate-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/dining-room-classic-layout.jpg" alt="Wardrobe Design" loading="lazy">
+                    <img src="<?php echo ASSETS_PATH; ?>images/Wardrobe.jpeg" alt="Wardrobe Design" loading="lazy">
                 </div>
                 <div class="estimate-card-content">
                     <h3>Wardrobe</h3>

@@ -148,6 +148,27 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => alert.remove(), 300);
         });
     }, 5000);
+
+    // Home Portfolio Preview: category filter
+    const filterBar = document.querySelector('.portfolio-filters');
+    const filterButtons = document.querySelectorAll('.portfolio-filters .filter-btn');
+    const previewItems = document.querySelectorAll('.portfolio-grid .portfolio-item');
+    if (filterBar && filterButtons.length && previewItems.length) {
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                filterButtons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                const filter = this.getAttribute('data-filter');
+
+                previewItems.forEach((item) => {
+                    const show = filter === 'all' || item.classList.contains(filter);
+                    item.style.display = show ? 'block' : 'none';
+                    item.style.opacity = show ? '1' : '0';
+                    item.style.transform = show ? 'translateY(0)' : 'translateY(10px)';
+                });
+            });
+        });
+    }
 });
 
 // Utility functions

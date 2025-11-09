@@ -1,7 +1,7 @@
 <?php
 /**
  * Form Handler for Mahati Interior Design Website
- * Handles contact form and newsletter submissions with PDF generation
+ * Handles contact form and newsletter submissions (no email/PDF functionality)
  */
 
 // Prevent direct access
@@ -88,7 +88,7 @@ function handle_contact_form() {
     
     // Terms checkbox is now optional - removed validation
     
-    // Prepare form data - email functionality removed
+    // Prepare form data for email
     $formData = [
         'firstName' => $firstName,
         'lastName' => $lastName,
@@ -100,11 +100,20 @@ function handle_contact_form() {
         'message' => $message
     ];
     
-    // Log form submission for records
-    error_log('Contact form submitted: ' . $email . ' - ' . $projectType);
-    
-    // Always show success message (email functionality removed)
-    $mail_sent = true;
+    // Send email using PHPMailer
+    require_once 'phpmailer-config.php';
+    try {
+        $result = send_phpmailer_email($formData);
+        $mail_sent = $result['success'];
+        if ($mail_sent) {
+            error_log('Email sent to admin from: ' . $email);
+        } else {
+            error_log('PHPMailer send failed: ' . ($result['message'] ?? 'Unknown error'));
+        }
+    } catch (Exception $e) {
+        error_log('Email error: ' . $e->getMessage());
+        $mail_sent = false;
+    }
     
     if ($mail_sent) {
         if ($is_ajax) {

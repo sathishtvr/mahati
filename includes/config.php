@@ -180,10 +180,10 @@ function get_page_description() {
     $current_page = get_current_page();
     $descriptions = [
         'home' => 'Professional interior design services to transform your space. Expert designers, quality materials, and personalized solutions.',
-        'about' => 'Learn about Mahati Interiors team, our mission, and our commitment to creating beautiful spaces.',
+        'about' => 'Learn about Mahati Interior team, our mission, and our commitment to creating beautiful spaces.',
         'services' => 'Explore our comprehensive interior design services including residential, commercial, and consultation services.',
         'portfolio' => 'View our portfolio of completed interior design projects showcasing our expertise and creativity.',
-        'contact' => 'Get in touch with Mahati Interiors for your next project. Contact information and inquiry form.'
+        'contact' => 'Get in touch with Mahati Interior for your next project. Contact information and inquiry form.'
     ];
     
     return isset($descriptions[$current_page]) ? $descriptions[$current_page] : 'Professional interior design services';
