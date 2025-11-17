@@ -11,7 +11,7 @@ if (!defined('SECURE_ACCESS')) {
 
 <!-- Services Hero Section -->
 <section class="services-hero section">
-    <img src="<?php echo ASSETS_PATH; ?>images/gallary.jpg" alt="Our Services" class="hero-bg-image">
+    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_17.jpeg" alt="Our Services" class="hero-bg-image">
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content" data-aos="fade-up">
@@ -28,9 +28,9 @@ if (!defined('SECURE_ACCESS')) {
             <h2>Our Services</h2>
             <p>Comprehensive interior design solutions tailored to your needs</p>
         </div>
-        
+
         <div class="services-grid">
-            
+
 
             <!-- Our Values Card -->
             <div class="services-card-clean" data-aos="fade-up" data-aos-delay="400">
@@ -39,7 +39,8 @@ if (!defined('SECURE_ACCESS')) {
                     <i class="fas fa-heart"></i>
                 </div>
                 <h3>Our Values</h3>
-                <p>Quality interior design solutions with lifetime warranty. Specialized after-sales service with highest quality standards. Customer satisfaction at every stage.</p>
+                <p>Quality interior design solutions with lifetime warranty. Specialized after-sales service with
+                    highest quality standards. Customer satisfaction at every stage.</p>
                 <a href="<?php echo page_url('contact'); ?>" class="services-btn-clean">Read More</a>
             </div>
 
@@ -50,7 +51,8 @@ if (!defined('SECURE_ACCESS')) {
                     <i class="fas fa-home"></i>
                 </div>
                 <h3>Residential Design</h3>
-                <p>Living & dining spaces, Modular kitchens & utility, Bedrooms & wardrobes, Study/home-office & kids' rooms</p>
+                <p>Living & dining spaces, Modular kitchens & utility, Bedrooms & wardrobes, Study/home-office & kids'
+                    rooms</p>
                 <a href="<?php echo page_url('contact'); ?>" class="services-btn-clean">Read More</a>
             </div>
 
@@ -72,7 +74,8 @@ if (!defined('SECURE_ACCESS')) {
                     <i class="fas fa-palette"></i>
                 </div>
                 <h3>Design Consultation</h3>
-                <p>Space planning, color consultation, furniture layout, material selection and complete design guidance</p>
+                <p>Space planning, color consultation, furniture layout, material selection and complete design guidance
+                </p>
                 <a href="<?php echo page_url('contact'); ?>" class="services-btn-clean">Read More</a>
             </div>
 
@@ -90,14 +93,14 @@ if (!defined('SECURE_ACCESS')) {
                 <a href="<?php echo page_url('contact'); ?>" class="cta-button">GET FREE QUOTE</a>
             </div>
         </div>
-        
+
         <div class="budget-carousel-container" data-aos="fade-up" data-aos-delay="200">
             <div class="budget-carousel">
                 <div class="budget-carousel-track">
                     <!-- 2BHK Package -->
                     <div class="budget-card">
                         <div class="budget-image">
-                            <img src="<?php echo ASSETS_PATH; ?>images/modern-living-room-interior.jpg" alt="2BHK Interior">
+                            <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_12.jpg" alt="2BHK Interior">
                             <div class="budget-badge">Starting at 3.5L*</div>
                         </div>
                         <div class="budget-content">
@@ -116,11 +119,11 @@ if (!defined('SECURE_ACCESS')) {
                             <button class="budget-cta-btn">Get This Design</button>
                         </div>
                     </div>
-                    
+
                     <!-- 3BHK Package -->
                     <div class="budget-card">
                         <div class="budget-image">
-                            <img src="<?php echo ASSETS_PATH; ?>images/luxury-bedroom-design.jpg" alt="3BHK Interior">
+                            <img src="<?php echo ASSETS_PATH; ?>images/bedroom/bedroom_10.jpg" alt="3BHK Interior">
                             <div class="budget-badge">Starting at 4.2L*</div>
                         </div>
                         <div class="budget-content">
@@ -139,11 +142,12 @@ if (!defined('SECURE_ACCESS')) {
                             <button class="budget-cta-btn">Get This Design</button>
                         </div>
                     </div>
-                    
+
                     <!-- 4BHK Package -->
                     <div class="budget-card">
                         <div class="budget-image">
-                            <img src="<?php echo ASSETS_PATH; ?>images/dining-room-classic-layout.jpg" alt="4BHK Interior">
+                            <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_32.jpg"
+                                alt="4BHK Interior">
                             <div class="budget-badge">Starting at 4.8L*</div>
                         </div>
                         <div class="budget-content">
@@ -164,7 +168,7 @@ if (!defined('SECURE_ACCESS')) {
                     </div>
                 </div>
             </div>
-            
+
             <!-- Carousel Navigation -->
             <div class="carousel-nav">
                 <button class="carousel-btn prev-btn" onclick="moveBudgetCarousel(-1)">
@@ -185,24 +189,27 @@ if (!defined('SECURE_ACCESS')) {
             <h2>Get an estimate for your Bangalore home</h2>
             <p>Calculate the approximate cost of doing up your interiors.</p>
         </div>
-        
+
         <div class="estimate-cards" data-aos="fade-up" data-aos-delay="100">
             <!-- Full Home Card -->
             <div class="estimate-card">
                 <div class="estimate-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/fullofhome.jpeg" alt="Full Home Interior" loading="lazy">
+                    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_8.jpg" alt="Full Home Interior"
+                        loading="lazy">
                 </div>
                 <div class="estimate-card-content">
                     <h3>Full Home</h3>
-                    <p>End-to-end interior design for your entire home with premium materials and expert craftsmanship.</p>
+                    <p>End-to-end interior design for your entire home with premium materials and expert craftsmanship.
+                    </p>
                     <a href="#" class="estimate-btn">CALCULATE <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
-            
+
             <!-- Kitchen Card -->
             <div class="estimate-card">
                 <div class="estimate-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen-contemporary-design.jpg" alt="Kitchen Design" loading="lazy">
+                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_1.jpg" alt="Kitchen Design"
+                        loading="lazy">
                 </div>
                 <div class="estimate-card-content">
                     <h3>Kitchen</h3>
@@ -210,11 +217,12 @@ if (!defined('SECURE_ACCESS')) {
                     <a href="#" class="estimate-btn">CALCULATE <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
-            
+
             <!-- Wardrobe Card -->
             <div class="estimate-card">
                 <div class="estimate-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/Wardrobe.jpeg" alt="Wardrobe Design" loading="lazy">
+                    <img src="<?php echo ASSETS_PATH; ?>images/wardrobe/wardrobe_42.jpg" alt="Wardrobe Design"
+                        loading="lazy">
                 </div>
                 <div class="estimate-card-content">
                     <h3>Wardrobe</h3>
@@ -223,8 +231,8 @@ if (!defined('SECURE_ACCESS')) {
                 </div>
             </div>
         </div>
-        
-        
+
+
     </div>
 </section>
 
@@ -233,9 +241,11 @@ if (!defined('SECURE_ACCESS')) {
     <div class="container">
         <div class="section-header" data-aos="fade-up">
             <h2>360 Service Design, Installation & Everything In Between</h2>
-            <p>From Consultation to design, development to project implementation, we offer turnkey projects executed in the best possible way. Our service also includes all allied interior work like ceiling to electrical wiring and wall covering to flooring and painting.</p>
+            <p>From Consultation to design, development to project implementation, we offer turnkey projects executed in
+                the best possible way. Our service also includes all allied interior work like ceiling to electrical
+                wiring and wall covering to flooring and painting.</p>
         </div>
-        
+
         <div class="specialized-grid">
             <div class="specialized-item" data-aos="fade-right">
                 <div class="specialized-icon">
@@ -246,7 +256,7 @@ if (!defined('SECURE_ACCESS')) {
                     <p>Expert color selection to create the perfect mood and atmosphere for your space.</p>
                 </div>
             </div>
-            
+
             <div class="specialized-item" data-aos="fade-left">
                 <div class="specialized-icon">
                     <i class="fas fa-lightbulb"></i>
@@ -256,7 +266,7 @@ if (!defined('SECURE_ACCESS')) {
                     <p>Strategic lighting solutions to enhance ambiance and functionality.</p>
                 </div>
             </div>
-            
+
             <div class="specialized-item" data-aos="fade-right">
                 <div class="specialized-icon">
                     <i class="fas fa-couch"></i>
@@ -266,7 +276,7 @@ if (!defined('SECURE_ACCESS')) {
                     <p>Curated furniture pieces that perfectly complement your design vision.</p>
                 </div>
             </div>
-            
+
             <div class="specialized-item" data-aos="fade-left">
                 <div class="specialized-icon">
                     <i class="fas fa-leaf"></i>
@@ -276,7 +286,7 @@ if (!defined('SECURE_ACCESS')) {
                     <p>Eco-friendly design solutions that are both beautiful and environmentally conscious.</p>
                 </div>
             </div>
-            
+
             <div class="specialized-item" data-aos="fade-right">
                 <div class="specialized-icon">
                     <i class="fas fa-cube"></i>
@@ -286,7 +296,7 @@ if (!defined('SECURE_ACCESS')) {
                     <p>Realistic 3D renderings to help you visualize your space before implementation.</p>
                 </div>
             </div>
-            
+
             <div class="specialized-item" data-aos="fade-left">
                 <div class="specialized-icon">
                     <i class="fas fa-tools"></i>

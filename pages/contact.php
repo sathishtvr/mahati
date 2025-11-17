@@ -18,17 +18,18 @@ if (!defined('SECURE_ACCESS')) {
                 <div class="sidebar-content">
                     <h2>Book a Free Design Consultation</h2>
                     <p>Bengaluru, India (Serving Karnataka, Tamil Nadu & Andhra Pradesh)</p>
-                    
+
                     <div class="contact-details">
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div class="contact-text">
-                                <strong>Address:</strong> No 68, 4th cross, 9th main road<br>Muneshwar layout, Vaderahalli<br>Vidyaranyapura, Bangalore<br>Karnataka - 560097
+                                <strong>Address:</strong> No 68, 4th cross, 9th main road<br>Muneshwar layout,
+                                Vaderahalli<br>Vidyaranyapura, Bangalore<br>Karnataka - 560097
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-phone"></i>
@@ -37,7 +38,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <strong>Phone:</strong> +91 98455 49933
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-envelope"></i>
@@ -46,7 +47,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <strong>Email:</strong> Mahatiinterior@gmail.com
                             </div>
                         </div>
-                        
+
                         <div class="contact-item">
                             <div class="contact-icon">
                                 <i class="fas fa-globe"></i>
@@ -58,17 +59,19 @@ if (!defined('SECURE_ACCESS')) {
                     </div>
                 </div>
             </div>
-            
+
             <!-- Contact Form -->
             <div class="contact-form-section" data-aos="fade-left">
                 <div class="form-container">
                     <h2>Start Your Project</h2>
                     <p>Fill out the form below and we'll get back to you within 24 hours</p>
-                    
-                    <form class="contact-form" id="contactForm" method="POST" action="<?php echo SITE_URL; ?>/includes/form-handler.php">
+
+                    <form class="contact-form" id="contactForm" method="POST"
+                        action="<?php echo SITE_URL; ?>/includes/form-handler.php">
                         <input type="hidden" name="form_type" value="contact">
-                        <input type="hidden" name="<?php echo CSRF_TOKEN_NAME; ?>" value="<?php echo generate_csrf_token(); ?>">
-                        
+                        <input type="hidden" name="<?php echo CSRF_TOKEN_NAME; ?>"
+                            value="<?php echo generate_csrf_token(); ?>">
+
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="firstName">First Name *</label>
@@ -81,7 +84,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <span class="form-error"></span>
                             </div>
                         </div>
-                        
+
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="email">Email Address *</label>
@@ -94,7 +97,7 @@ if (!defined('SECURE_ACCESS')) {
                                 <span class="form-error"></span>
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="projectType">Project Type *</label>
                             <select id="projectType" name="projectType" required>
@@ -109,7 +112,7 @@ if (!defined('SECURE_ACCESS')) {
                             </select>
                             <span class="form-error"></span>
                         </div>
-                        
+
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="budget">Budget Range</label>
@@ -132,15 +135,17 @@ if (!defined('SECURE_ACCESS')) {
                                 </select>
                             </div>
                         </div>
-                        
+
                         <div class="form-group">
                             <label for="message">Project Details *</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, space requirements, style preferences, and any specific needs..." required></textarea>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell us about your project, space requirements, style preferences, and any specific needs..."
+                                required></textarea>
                             <span class="form-error"></span>
                             <div class="character-count">0 characters (minimum 10)</div>
                         </div>
-                        
-                        
+
+
                         <button type="submit" class="submit-btn">
                             <span class="btn-text">Send Message</span>
                             <span class="btn-loading">
@@ -164,15 +169,10 @@ if (!defined('SECURE_ACCESS')) {
     </div>
     <div class="map-container" data-aos="fade-up">
         <div class="map-placeholder">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0!2d77.55!3d13.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAzJzAwLjAiTiA3N8IwMycwMC4wIkU!5e0!3m2!1sen!2sin!4v1234567890" 
-                width="100%" 
-                height="400" 
-                style="border:0;" 
-                allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade"
-                title="Mahati Interior Location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0!2d77.55!3d13.05!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAzJzAwLjAiTiA3N8IwMycwMC4wIkU!5e0!3m2!1sen!2sin!4v1234567890"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Mahati Interior Location">
             </iframe>
         </div>
     </div>
@@ -194,7 +194,8 @@ if (!defined('SECURE_ACCESS')) {
                 <i class="fab fa-whatsapp"></i>
                 <span>WHATSAPP</span>
             </a>
-            <a href="https://www.instagram.com/mahati_interior?igsh=MTA5ZTgzMTJkMjBjNw%3D%3D&utm_source=qr" target="_blank" class="connect-btn instagram-btn">
+            <a href="https://www.instagram.com/mahati_interior?igsh=MTA5ZTgzMTJkMjBjNw%3D%3D&utm_source=qr"
+                target="_blank" class="connect-btn instagram-btn">
                 <i class="fab fa-instagram"></i>
                 <span>INSTAGRAM</span>
             </a>
@@ -209,10 +210,11 @@ if (!defined('SECURE_ACCESS')) {
             <h2>Frequently Asked Questions</h2>
             <p>Common questions about our turnkey interior solutions and design process</p>
         </div>
-        
+
         <div class="faq-container">
             <div class="questions-image" data-aos="fade-left">
-                <img src="<?php echo ASSETS_PATH; ?>images/gallary.jpg" alt="Interior Design Consultation">
+                <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_20.jpg"
+                    alt="Interior Design Consultation">
             </div>
             <div class="faq-item" data-aos="fade-up">
                 <div class="faq-question">
@@ -220,47 +222,56 @@ if (!defined('SECURE_ACCESS')) {
                     <i class="fas fa-plus"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>Project timelines vary based on scope and complexity. A single room typically takes 4-6 weeks, while a complete home renovation can take 3-6 months. We provide detailed timelines during the consultation phase.</p>
+                    <p>Project timelines vary based on scope and complexity. A single room typically takes 4-6 weeks,
+                        while a complete home renovation can take 3-6 months. We provide detailed timelines during the
+                        consultation phase.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
                 <div class="faq-question">
                     <h4>Do you provide 3D visualizations of the design?</h4>
                     <i class="fas fa-plus"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>Yes, we provide detailed 3D visualizations for all our projects. This helps you see exactly how your space will look before implementation begins, ensuring you're completely satisfied with the design.</p>
+                    <p>Yes, we provide detailed 3D visualizations for all our projects. This helps you see exactly how
+                        your space will look before implementation begins, ensuring you're completely satisfied with the
+                        design.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
                 <div class="faq-question">
                     <h4>What is included in your design consultation?</h4>
                     <i class="fas fa-plus"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>Our consultation includes space assessment, style discussion, budget planning, timeline overview, and initial design concepts. We also provide a detailed proposal outlining the project scope and investment required.</p>
+                    <p>Our consultation includes space assessment, style discussion, budget planning, timeline overview,
+                        and initial design concepts. We also provide a detailed proposal outlining the project scope and
+                        investment required.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
                 <div class="faq-question">
                     <h4>Do you handle project management and execution?</h4>
                     <i class="fas fa-plus"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>Absolutely! We provide end-to-end project management, coordinating with contractors, vendors, and suppliers. Our team ensures quality control and timely completion of all work.</p>
+                    <p>Absolutely! We provide end-to-end project management, coordinating with contractors, vendors, and
+                        suppliers. Our team ensures quality control and timely completion of all work.</p>
                 </div>
             </div>
-            
+
             <div class="faq-item" data-aos="fade-up" data-aos-delay="800">
                 <div class="faq-question">
                     <h4>Do you work within specific budgets?</h4>
                     <i class="fas fa-plus"></i>
                 </div>
                 <div class="faq-answer">
-                    <p>Yes! We work with various budget ranges and will create a design plan that maximizes your investment. During consultation, we'll discuss your budget and provide options that work within your range.</p>
+                    <p>Yes! We work with various budget ranges and will create a design plan that maximizes your
+                        investment. During consultation, we'll discuss your budget and provide options that work within
+                        your range.</p>
                 </div>
             </div>
         </div>

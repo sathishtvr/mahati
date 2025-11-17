@@ -11,7 +11,7 @@ if (!defined('SECURE_ACCESS')) {
 
 <!-- Portfolio Hero Section -->
 <section class="portfolio-hero section">
-    <img src="<?php echo ASSETS_PATH; ?>images/bedroom-cozy-decor.jpg" alt="Our Portfolio" class="hero-bg-image">
+    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_16.jpg" alt="Our Portfolio" class="hero-bg-image">
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content" data-aos="fade-up">
@@ -45,7 +45,7 @@ if (!defined('SECURE_ACCESS')) {
             <!-- Living & TV Units - 3 Cards -->
             <div class="portfolio-item living" data-aos="fade-up">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-living-1.jpg" alt="Modern Living Room">
+                    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_6.jpg" alt="Modern Living Room">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Modern Living Room</h3>
@@ -66,10 +66,10 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Living Room • Contemporary</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item living" data-aos="fade-up" data-aos-delay="100">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-living-2.jpg" alt="Classic TV Unit">
+                    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_35.jpg" alt="Classic TV Unit">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Classic TV Unit</h3>
@@ -90,10 +90,10 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Living Room • Classic</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item living" data-aos="fade-up" data-aos-delay="200">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-living-3.jpg" alt="Premium Living Space">
+                    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_20.jpg" alt="Premium Living Space">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Premium Living Space</h3>
@@ -114,11 +114,11 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Living Room • Luxury</span>
                 </div>
             </div>
-            
+
             <!-- Bedrooms & Wardrobes - 3 Cards -->
             <div class="portfolio-item bedroom" data-aos="fade-up">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-bedroom-1.jpg" alt="Master Bedroom">
+                    <img src="<?php echo ASSETS_PATH; ?>images/bedroom/bedroom_6.jpg" alt="Master Bedroom">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Master Bedroom</h3>
@@ -139,13 +139,13 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Bedroom • Luxury</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item bedroom" data-aos="fade-up" data-aos-delay="100">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-bedroom-2.jpg" alt="Cozy Bedroom">
+                    <img src="<?php echo ASSETS_PATH; ?>images/wardrobe/wardrobe_2.jpg" alt="Cozy Wardrobe">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
-                            <h3>Cozy Bedroom</h3>
+                            <h3>Cozy Wardrobe</h3>
                             <p>Warm & Inviting</p>
                             <div class="overlay-buttons">
                                 <button class="view-btn" onclick="openModal('bedroom2')">
@@ -159,14 +159,14 @@ if (!defined('SECURE_ACCESS')) {
                     </div>
                 </div>
                 <div class="portfolio-info">
-                    <h4>Cozy Bedroom</h4>
+                    <h4>Cozy Wardrobe</h4>
                     <span class="project-category">Bedroom • Modern</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item bedroom" data-aos="fade-up" data-aos-delay="200">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-bedroom-3.jpg" alt="Walk-in Wardrobe">
+                    <img src="<?php echo ASSETS_PATH; ?>images/wardrobe/wardrobe_39.jpg" alt="Walk-in Wardrobe">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Walk-in Wardrobe</h3>
@@ -187,11 +187,11 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Wardrobe • Custom</span>
                 </div>
             </div>
-            
+
             <!-- Modular Kitchens - 3 Cards -->
             <div class="portfolio-item kitchen" data-aos="fade-up">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-kitchen-1.jpg" alt="Modern Kitchen">
+                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_1.jpg" alt="Modern Kitchen">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Modern Kitchen</h3>
@@ -212,10 +212,10 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Kitchen • Contemporary</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="100">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-kitchen-2.jpg" alt="Classic Kitchen">
+                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_15.jpg" alt="Classic Kitchen">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Classic Kitchen</h3>
@@ -236,10 +236,10 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Kitchen • Classic</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item kitchen" data-aos="fade-up" data-aos-delay="200">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-kitchen-3.jpg" alt="Premium Kitchen">
+                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_7.jpg" alt="Premium Kitchen">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Premium Kitchen</h3>
@@ -260,11 +260,11 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Kitchen • Luxury</span>
                 </div>
             </div>
-            
+
             <!-- Study & Home-Office - 3 Cards -->
             <div class="portfolio-item office" data-aos="fade-up">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-office-1.jpg" alt="Home Office">
+                    <img src="<?php echo ASSETS_PATH; ?>images/corporate/corporate_10.jpg" alt="Home Office">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Home Office</h3>
@@ -285,10 +285,10 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Office • Modern</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item office" data-aos="fade-up" data-aos-delay="100">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-office-2.jpg" alt="Study Room">
+                    <img src="<?php echo ASSETS_PATH; ?>images/wardrobe/wardrobe_31.jpg" alt="Study Room">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Study Room</h3>
@@ -309,10 +309,10 @@ if (!defined('SECURE_ACCESS')) {
                     <span class="project-category">Study • Classic</span>
                 </div>
             </div>
-            
+
             <div class="portfolio-item office" data-aos="fade-up" data-aos-delay="200">
                 <div class="portfolio-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/portfolio-office-3.jpg" alt="Creative Workspace">
+                    <img src="<?php echo ASSETS_PATH; ?>images/corporate/corporate_7.jpg" alt="Creative Workspace">
                     <div class="portfolio-overlay">
                         <div class="overlay-content">
                             <h3>Creative Workspace</h3>
@@ -346,11 +346,12 @@ if (!defined('SECURE_ACCESS')) {
             <h2>What Our Clients Say</h2>
             <p>Real feedback from satisfied clients about their design journey with us</p>
         </div>
-        
+
         <div class="testimonials-grid">
             <div class="testimonial-card" data-aos="fade-up">
                 <div class="testimonial-content">
-                    <p>"Mahati transformed our home beyond our wildest dreams. Their attention to detail and creative vision is unmatched."</p>
+                    <p>"Mahati transformed our home beyond our wildest dreams. Their attention to detail and creative
+                        vision is unmatched."</p>
                 </div>
                 <div class="testimonial-author">
                     <img src="<?php echo ASSETS_PATH; ?>images/client1.jpg" alt="Sarah Johnson">
@@ -367,10 +368,11 @@ if (!defined('SECURE_ACCESS')) {
                     <i class="fas fa-star"></i>
                 </div>
             </div>
-            
+
             <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="testimonial-content">
-                    <p>"Professional, creative, and delivered exactly what we envisioned. Our office space has never looked better."</p>
+                    <p>"Professional, creative, and delivered exactly what we envisioned. Our office space has never
+                        looked better."</p>
                 </div>
                 <div class="testimonial-author">
                     <img src="<?php echo ASSETS_PATH; ?>images/client2.jpg" alt="Michael Chen">
@@ -387,10 +389,11 @@ if (!defined('SECURE_ACCESS')) {
                     <i class="fas fa-star"></i>
                 </div>
             </div>
-            
+
             <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
                 <div class="testimonial-content">
-                    <p>"From concept to completion, the team was exceptional. They truly understand luxury design and execution."</p>
+                    <p>"From concept to completion, the team was exceptional. They truly understand luxury design and
+                        execution."</p>
                 </div>
                 <div class="testimonial-author">
                     <img src="<?php echo ASSETS_PATH; ?>images/client3.jpg" alt="Emily Rodriguez">
@@ -439,206 +442,206 @@ if (!defined('SECURE_ACCESS')) {
 <script src="<?php echo ASSETS_PATH; ?>js/portfolio.js"></script>
 
 <script>
-// Featured project image change functionality
-function changeMainImage(thumbnail) {
-    const mainImage = document.querySelector('.featured-images .main-image img');
-    if (mainImage && thumbnail) {
-        mainImage.src = thumbnail.src;
-        mainImage.alt = thumbnail.alt;
-    }
-}
-
-// Portfolio filtering functionality
-document.addEventListener('DOMContentLoaded', function() {
-    const filterButtons = document.querySelectorAll('.filter-btn');
-    const portfolioItems = document.querySelectorAll('.portfolio-item');
-    const portfolioTitle = document.getElementById('portfolio-title');
-    const portfolioSubtitle = document.getElementById('portfolio-subtitle');
-    
-    // Title and subtitle data for each filter
-    const filterContent = {
-        'all': {
-            title: 'All Projects',
-            subtitle: 'Showcasing our finest interior design work across all categories'
-        },
-        'living': {
-            title: 'Living & TV Units',
-            subtitle: 'Elegant living spaces designed for comfort and entertainment'
-        },
-        'bedroom': {
-            title: 'Bedrooms & Wardrobes',
-            subtitle: 'Serene bedroom designs with custom storage solutions'
-        },
-        'kitchen': {
-            title: 'Modular Kitchens',
-            subtitle: 'Functional and stylish kitchen designs for modern living'
-        },
-        'office': {
-            title: 'Study & Home-Office',
-            subtitle: 'Productive workspaces designed for focus and creativity'
+    // Featured project image change functionality
+    function changeMainImage(thumbnail) {
+        const mainImage = document.querySelector('.featured-images .main-image img');
+        if (mainImage && thumbnail) {
+            mainImage.src = thumbnail.src;
+            mainImage.alt = thumbnail.alt;
         }
-    };
-    
-    filterButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            // Remove active class from all buttons
-            filterButtons.forEach(btn => btn.classList.remove('active'));
-            // Add active class to clicked button
-            this.classList.add('active');
-            
-            const filter = this.getAttribute('data-filter');
-            
-            // Update title and subtitle
-            if (filterContent[filter]) {
-                portfolioTitle.textContent = filterContent[filter].title;
-                portfolioSubtitle.textContent = filterContent[filter].subtitle;
+    }
+
+    // Portfolio filtering functionality
+    document.addEventListener('DOMContentLoaded', function () {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        const portfolioTitle = document.getElementById('portfolio-title');
+        const portfolioSubtitle = document.getElementById('portfolio-subtitle');
+
+        // Title and subtitle data for each filter
+        const filterContent = {
+            'all': {
+                title: 'All Projects',
+                subtitle: 'Showcasing our finest interior design work across all categories'
+            },
+            'living': {
+                title: 'Living & TV Units',
+                subtitle: 'Elegant living spaces designed for comfort and entertainment'
+            },
+            'bedroom': {
+                title: 'Bedrooms & Wardrobes',
+                subtitle: 'Serene bedroom designs with custom storage solutions'
+            },
+            'kitchen': {
+                title: 'Modular Kitchens',
+                subtitle: 'Functional and stylish kitchen designs for modern living'
+            },
+            'office': {
+                title: 'Study & Home-Office',
+                subtitle: 'Productive workspaces designed for focus and creativity'
             }
-            
-            // Filter portfolio items
-            portfolioItems.forEach(item => {
-                if (filter === 'all' || item.classList.contains(filter)) {
-                    item.style.display = 'block';
-                    item.style.animation = 'fadeIn 0.5s ease';
-                } else {
-                    item.style.display = 'none';
+        };
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', function () {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+
+                const filter = this.getAttribute('data-filter');
+
+                // Update title and subtitle
+                if (filterContent[filter]) {
+                    portfolioTitle.textContent = filterContent[filter].title;
+                    portfolioSubtitle.textContent = filterContent[filter].subtitle;
                 }
+
+                // Filter portfolio items
+                portfolioItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                        item.style.animation = 'fadeIn 0.5s ease';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
             });
         });
     });
-});
 
-// Modal functionality
-function openModal(projectId) {
-    const modal = document.getElementById('projectModal');
-    const modalContent = document.getElementById('modalContent');
-    
-    // Project details data
-    const projectData = {
-        'living1': {
-            title: 'Modern Living Room',
-            category: 'Living Room • Contemporary',
-            location: 'Mumbai, India',
-            area: '600 sq ft',
-            year: '2024',
-            description: 'Contemporary living room with custom TV unit and entertainment center designed for modern living.',
-            services: ['Living Room Design', 'Custom TV Unit', 'Lighting Design'],
-            highlights: ['Custom entertainment unit', 'Ambient lighting system', 'Premium upholstery']
-        },
-        'living2': {
-            title: 'Classic TV Unit',
-            category: 'Living Room • Classic',
-            location: 'Delhi, India',
-            area: '550 sq ft',
-            year: '2024',
-            description: 'Elegant TV unit design with classic aesthetics and modern functionality.',
-            services: ['TV Unit Design', 'Storage Solutions', 'Cable Management'],
-            highlights: ['Classic wood finishes', 'Integrated storage', 'Hidden cable management']
-        },
-        'living3': {
-            title: 'Premium Living Space',
-            category: 'Living Room • Luxury',
-            location: 'Pune, India',
-            area: '700 sq ft',
-            year: '2024',
-            description: 'Premium entertainment unit with luxury finishes and smart features.',
-            services: ['Entertainment Center', 'Smart Home Integration', 'Acoustic Design'],
-            highlights: ['Premium materials', 'Smart home integration', 'Acoustic treatment']
-        },
-        'bedroom1': {
-            title: 'Master Bedroom',
-            category: 'Bedroom • Luxury',
-            location: 'Hyderabad, India',
-            area: '500 sq ft',
-            year: '2024',
-            description: 'Luxurious master bedroom with custom furniture and premium finishes.',
-            services: ['Bedroom Design', 'Custom Furniture', 'Lighting Design'],
-            highlights: ['Custom bed design', 'Premium fabrics', 'Mood lighting']
-        },
-        'bedroom2': {
-            title: 'Cozy Bedroom',
-            category: 'Bedroom • Modern',
-            location: 'Chennai, India',
-            area: '400 sq ft',
-            year: '2024',
-            description: 'Warm and inviting bedroom design with modern comfort.',
-            services: ['Bedroom Design', 'Storage Solutions', 'Decor'],
-            highlights: ['Warm color palette', 'Efficient storage', 'Cozy ambiance']
-        },
-        'bedroom3': {
-            title: 'Walk-in Wardrobe',
-            category: 'Wardrobe • Custom',
-            location: 'Bangalore, India',
-            area: '200 sq ft',
-            year: '2024',
-            description: 'Spacious walk-in wardrobe with custom storage solutions.',
-            services: ['Wardrobe Design', 'Custom Storage', 'LED Lighting'],
-            highlights: ['Custom shelving system', 'LED lighting', 'Premium finishes']
-        },
-        'kitchen1': {
-            title: 'Modern Kitchen',
-            category: 'Kitchen • Contemporary',
-            location: 'Mumbai, India',
-            area: '350 sq ft',
-            year: '2024',
-            description: 'Contemporary modular kitchen with sleek design and functionality.',
-            services: ['Kitchen Design', 'Modular Units', 'Appliance Integration'],
-            highlights: ['Modular cabinets', 'Quartz countertops', 'Built-in appliances']
-        },
-        'kitchen2': {
-            title: 'Classic Kitchen',
-            category: 'Kitchen • Classic',
-            location: 'Delhi, India',
-            area: '400 sq ft',
-            year: '2024',
-            description: 'Timeless kitchen design with classic elements and modern convenience.',
-            services: ['Kitchen Design', 'Custom Cabinets', 'Storage Solutions'],
-            highlights: ['Classic wood cabinets', 'Granite countertops', 'Efficient layout']
-        },
-        'kitchen3': {
-            title: 'Premium Kitchen',
-            category: 'Kitchen • Luxury',
-            location: 'Pune, India',
-            area: '500 sq ft',
-            year: '2024',
-            description: 'Premium kitchen with luxury finishes and high-end appliances.',
-            services: ['Luxury Kitchen Design', 'Premium Appliances', 'Custom Solutions'],
-            highlights: ['Premium materials', 'High-end appliances', 'Island counter']
-        },
-        'office1': {
-            title: 'Home Office',
-            category: 'Office • Modern',
-            location: 'Hyderabad, India',
-            area: '250 sq ft',
-            year: '2024',
-            description: 'Modern home office designed for productivity and style.',
-            services: ['Office Design', 'Custom Desk', 'Storage Solutions'],
-            highlights: ['Ergonomic furniture', 'Cable management', 'Ample storage']
-        },
-        'office2': {
-            title: 'Study Room',
-            category: 'Study • Classic',
-            location: 'Chennai, India',
-            area: '200 sq ft',
-            year: '2024',
-            description: 'Classic study room with focused design for concentration.',
-            services: ['Study Design', 'Bookshelves', 'Lighting'],
-            highlights: ['Custom bookshelves', 'Task lighting', 'Quiet ambiance']
-        },
-        'office3': {
-            title: 'Creative Workspace',
-            category: 'Office • Creative',
-            location: 'Bangalore, India',
-            area: '300 sq ft',
-            year: '2024',
-            description: 'Inspiring workspace designed for creativity and innovation.',
-            services: ['Workspace Design', 'Creative Layout', 'Inspiration Board'],
-            highlights: ['Creative layout', 'Inspiration wall', 'Flexible furniture']
-        }
-    };
-    
-    const project = projectData[projectId];
-    if (project) {
-        modalContent.innerHTML = `
+    // Modal functionality
+    function openModal(projectId) {
+        const modal = document.getElementById('projectModal');
+        const modalContent = document.getElementById('modalContent');
+
+        // Project details data
+        const projectData = {
+            'living1': {
+                title: 'Modern Living Room',
+                category: 'Living Room • Contemporary',
+                location: 'Mumbai, India',
+                area: '600 sq ft',
+                year: '2024',
+                description: 'Contemporary living room with custom TV unit and entertainment center designed for modern living.',
+                services: ['Living Room Design', 'Custom TV Unit', 'Lighting Design'],
+                highlights: ['Custom entertainment unit', 'Ambient lighting system', 'Premium upholstery']
+            },
+            'living2': {
+                title: 'Classic TV Unit',
+                category: 'Living Room • Classic',
+                location: 'Delhi, India',
+                area: '550 sq ft',
+                year: '2024',
+                description: 'Elegant TV unit design with classic aesthetics and modern functionality.',
+                services: ['TV Unit Design', 'Storage Solutions', 'Cable Management'],
+                highlights: ['Classic wood finishes', 'Integrated storage', 'Hidden cable management']
+            },
+            'living3': {
+                title: 'Premium Living Space',
+                category: 'Living Room • Luxury',
+                location: 'Pune, India',
+                area: '700 sq ft',
+                year: '2024',
+                description: 'Premium entertainment unit with luxury finishes and smart features.',
+                services: ['Entertainment Center', 'Smart Home Integration', 'Acoustic Design'],
+                highlights: ['Premium materials', 'Smart home integration', 'Acoustic treatment']
+            },
+            'bedroom1': {
+                title: 'Master Bedroom',
+                category: 'Bedroom • Luxury',
+                location: 'Hyderabad, India',
+                area: '500 sq ft',
+                year: '2024',
+                description: 'Luxurious master bedroom with custom furniture and premium finishes.',
+                services: ['Bedroom Design', 'Custom Furniture', 'Lighting Design'],
+                highlights: ['Custom bed design', 'Premium fabrics', 'Mood lighting']
+            },
+            'bedroom2': {
+                title: 'Cozy Bedroom',
+                category: 'Bedroom • Modern',
+                location: 'Chennai, India',
+                area: '400 sq ft',
+                year: '2024',
+                description: 'Warm and inviting bedroom design with modern comfort.',
+                services: ['Bedroom Design', 'Storage Solutions', 'Decor'],
+                highlights: ['Warm color palette', 'Efficient storage', 'Cozy ambiance']
+            },
+            'bedroom3': {
+                title: 'Walk-in Wardrobe',
+                category: 'Wardrobe • Custom',
+                location: 'Bangalore, India',
+                area: '200 sq ft',
+                year: '2024',
+                description: 'Spacious walk-in wardrobe with custom storage solutions.',
+                services: ['Wardrobe Design', 'Custom Storage', 'LED Lighting'],
+                highlights: ['Custom shelving system', 'LED lighting', 'Premium finishes']
+            },
+            'kitchen1': {
+                title: 'Modern Kitchen',
+                category: 'Kitchen • Contemporary',
+                location: 'Mumbai, India',
+                area: '350 sq ft',
+                year: '2024',
+                description: 'Contemporary modular kitchen with sleek design and functionality.',
+                services: ['Kitchen Design', 'Modular Units', 'Appliance Integration'],
+                highlights: ['Modular cabinets', 'Quartz countertops', 'Built-in appliances']
+            },
+            'kitchen2': {
+                title: 'Classic Kitchen',
+                category: 'Kitchen • Classic',
+                location: 'Delhi, India',
+                area: '400 sq ft',
+                year: '2024',
+                description: 'Timeless kitchen design with classic elements and modern convenience.',
+                services: ['Kitchen Design', 'Custom Cabinets', 'Storage Solutions'],
+                highlights: ['Classic wood cabinets', 'Granite countertops', 'Efficient layout']
+            },
+            'kitchen3': {
+                title: 'Premium Kitchen',
+                category: 'Kitchen • Luxury',
+                location: 'Pune, India',
+                area: '500 sq ft',
+                year: '2024',
+                description: 'Premium kitchen with luxury finishes and high-end appliances.',
+                services: ['Luxury Kitchen Design', 'Premium Appliances', 'Custom Solutions'],
+                highlights: ['Premium materials', 'High-end appliances', 'Island counter']
+            },
+            'office1': {
+                title: 'Home Office',
+                category: 'Office • Modern',
+                location: 'Hyderabad, India',
+                area: '250 sq ft',
+                year: '2024',
+                description: 'Modern home office designed for productivity and style.',
+                services: ['Office Design', 'Custom Desk', 'Storage Solutions'],
+                highlights: ['Ergonomic furniture', 'Cable management', 'Ample storage']
+            },
+            'office2': {
+                title: 'Study Room',
+                category: 'Study • Classic',
+                location: 'Chennai, India',
+                area: '200 sq ft',
+                year: '2024',
+                description: 'Classic study room with focused design for concentration.',
+                services: ['Study Design', 'Bookshelves', 'Lighting'],
+                highlights: ['Custom bookshelves', 'Task lighting', 'Quiet ambiance']
+            },
+            'office3': {
+                title: 'Creative Workspace',
+                category: 'Office • Creative',
+                location: 'Bangalore, India',
+                area: '300 sq ft',
+                year: '2024',
+                description: 'Inspiring workspace designed for creativity and innovation.',
+                services: ['Workspace Design', 'Creative Layout', 'Inspiration Board'],
+                highlights: ['Creative layout', 'Inspiration wall', 'Flexible furniture']
+            }
+        };
+
+        const project = projectData[projectId];
+        if (project) {
+            modalContent.innerHTML = `
             <div class="modal-project">
                 <h2>${project.title}</h2>
                 <div class="project-meta" style="margin: 1rem 0; display: flex; gap: 2rem; flex-wrap: wrap;">
@@ -667,22 +670,22 @@ function openModal(projectId) {
                 </div>
             </div>
         `;
-        modal.style.display = 'block';
+            modal.style.display = 'block';
+        }
     }
-}
 
-function closeModal() {
-    document.getElementById('projectModal').style.display = 'none';
-}
+    function closeModal() {
+        document.getElementById('projectModal').style.display = 'none';
+    }
 
-function expandImage(button) {
-    const portfolioItem = button.closest('.portfolio-item');
-    const img = portfolioItem.querySelector('img');
-    
-    // Create lightbox
-    const lightbox = document.createElement('div');
-    lightbox.className = 'lightbox';
-    lightbox.style.cssText = `
+    function expandImage(button) {
+        const portfolioItem = button.closest('.portfolio-item');
+        const img = portfolioItem.querySelector('img');
+
+        // Create lightbox
+        const lightbox = document.createElement('div');
+        lightbox.className = 'lightbox';
+        lightbox.style.cssText = `
         position: fixed;
         top: 0;
         left: 0;
@@ -695,31 +698,31 @@ function expandImage(button) {
         z-index: 9999;
         cursor: pointer;
     `;
-    
-    const lightboxImg = document.createElement('img');
-    lightboxImg.src = img.src;
-    lightboxImg.alt = img.alt;
-    lightboxImg.style.cssText = `
+
+        const lightboxImg = document.createElement('img');
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightboxImg.style.cssText = `
         max-width: 90%;
         max-height: 90%;
         object-fit: contain;
         border-radius: 8px;
     `;
-    
-    lightbox.appendChild(lightboxImg);
-    document.body.appendChild(lightbox);
-    
-    // Close lightbox on click
-    lightbox.addEventListener('click', function() {
-        document.body.removeChild(lightbox);
-    });
-}
 
-// Close modal when clicking outside
-window.onclick = function(event) {
-    const modal = document.getElementById('projectModal');
-    if (event.target == modal) {
-        modal.style.display = 'none';
+        lightbox.appendChild(lightboxImg);
+        document.body.appendChild(lightbox);
+
+        // Close lightbox on click
+        lightbox.addEventListener('click', function () {
+            document.body.removeChild(lightbox);
+        });
     }
-}
+
+    // Close modal when clicking outside
+    window.onclick = function (event) {
+        const modal = document.getElementById('projectModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
 </script>
