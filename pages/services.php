@@ -11,7 +11,7 @@ if (!defined('SECURE_ACCESS')) {
 
 <!-- Services Hero Section -->
 <section class="services-hero section">
-    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_17.jpeg" alt="Our Services" class="hero-bg-image">
+    <img src="<?php echo ASSETS_PATH; ?>images/livingroom/livingroom_68.jpeg" alt="Our Services" class="hero-bg-image">
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content" data-aos="fade-up">
@@ -100,7 +100,7 @@ if (!defined('SECURE_ACCESS')) {
                     <!-- 2BHK Package -->
                     <div class="budget-card">
                         <div class="budget-image">
-                            <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_12.jpg" alt="2BHK Interior">
+                            <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_4.jpg" alt="2BHK Interior">
                             <div class="budget-badge">Starting at 3.5L*</div>
                         </div>
                         <div class="budget-content">
@@ -208,12 +208,13 @@ if (!defined('SECURE_ACCESS')) {
             <!-- Kitchen Card -->
             <div class="estimate-card">
                 <div class="estimate-image">
-                    <img src="<?php echo ASSETS_PATH; ?>images/kitchen/kitchen_1.jpg" alt="Kitchen Design"
+                    <img src="<?php echo ASSETS_PATH; ?>images/corporate/corporate_3.jpeg" alt="Kitchen Design"
                         loading="lazy">
                 </div>
                 <div class="estimate-card-content">
-                    <h3>Kitchen</h3>
-                    <p>Modern modular kitchen design with smart storage solutions and premium finishes.</p>
+                    <h3>Commercial</h3>
+                    <p>Elegant conference table with a sleek design, premium finishes, and integrated cable management.
+                    </p>
                     <a href="#" class="estimate-btn">CALCULATE <i class="fas fa-chevron-right"></i></a>
                 </div>
             </div>
