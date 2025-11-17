@@ -55,146 +55,123 @@ define('SITE_EMAIL', 'info@mahatiinteriors.com');
 define('SITE_PHONE', '+91 98765 43210');
 ```
 
-### Security Settings
+# Mahati — Interior Design Website (PHP)
 
-- CSRF tokens for all forms
-- Input sanitization on all user data
-- Protected PHP files from direct access
-- Security headers via .htaccess
-
-## 🛡️ Security Features
-
-### Input Validation
-- All form inputs are sanitized using `sanitize_input()`
-- Email validation for contact forms
-- CSRF token verification for form submissions
-
-### File Protection
-- Direct access to PHP components blocked
-- Sensitive files hidden via .htaccess
-- Directory browsing disabled
-
-### URL Security
-- Page parameter validation against whitelist
-- Clean URL routing with security checks
-- 404 handling for invalid pages
-
-## 📝 Usage
-
-### Adding New Pages
-
-1. **Create Page File**: Add new PHP file in `php/pages/`
-2. **Update Config**: Add page to `$valid_pages` array in `config.php`
-3. **Add Navigation**: Update header component with new menu item
-
-### Form Handling
-
-Forms automatically include CSRF protection:
-
-```php
-<form method="POST" action="<?php echo page_url('contact'); ?>">
-    <input type="hidden" name="<?php echo CSRF_TOKEN_NAME; ?>" value="<?php echo generate_csrf_token(); ?>">
-    <input type="hidden" name="form_type" value="contact">
-    <!-- Form fields -->
-</form>
-```
-
-### Navigation
-
-Use helper functions for consistent navigation:
-
-```php
-<a href="<?php echo page_url('about'); ?>" 
-   class="<?php echo nav_class('about'); ?>">
-   About
-</a>
-```
-
-## 🎨 Styling
-
-- **Base Styles**: `css/base.css`
-- **Components**: `css/header.css`, `css/footer.css`
-- **Sections**: `css/sections.css`
-- **Page-Specific**: `css/pages/[page].css`
-
-## 📱 Responsive Design
-
-- Mobile-first approach
-- Flexible grid layouts
-- Touch-friendly navigation
-- Optimized images and fonts
-
-## 🔍 SEO Features
-
-- Dynamic page titles and meta descriptions
-- Clean, semantic HTML structure
-- Proper heading hierarchy
-- Image alt attributes
-- Structured data ready
-
-## 🚦 Error Handling
-
-- Custom 404 error pages
-- Form validation with user feedback
-- Error logging for debugging
-- Graceful fallbacks
-
-## 📊 Performance
-
-- Optimized CSS and JavaScript loading
-- Efficient PHP includes
-- Image optimization recommendations
-- Caching-friendly structure
-
-## 🔒 Best Practices Implemented
-
-### Security
-✅ CSRF protection on all forms
-✅ Input sanitization and validation
-✅ File access restrictions
-✅ Security headers
-✅ Error logging
-
-### Code Quality
-✅ Modular architecture
-✅ Consistent naming conventions
-✅ Comprehensive comments
-✅ Separation of concerns
-✅ Reusable components
-
-### Performance
-✅ Efficient file structure
-✅ Minimal database queries
-✅ Optimized asset loading
-✅ Clean URL routing
-
-## 🛠️ Maintenance
-
-### Regular Tasks
-- Update contact information in `config.php`
-- Review error logs for issues
-- Update content in page files
-- Backup database (when implemented)
-
-### Security Updates
-- Keep PHP version updated
-- Review and update .htaccess rules
-- Monitor for security vulnerabilities
-- Regular security audits
-
-## 🚀 Future Enhancements
-
-- Database integration for dynamic content
-- Admin panel for content management
-- Email integration for contact forms
-- Blog/news section
-- Client portal
-- Online booking system
-
-## 📞 Support
-
-For technical support or customization requests, contact the development team.
+This repository contains a small PHP website for Mahati Interior Design. It is intended to be run on a local or shared PHP web server (XAMPP, WAMP, LAMP) and uses simple PHP includes and static assets. No framework required.
 
 ---
 
-**Built with ❤️ for Mahati Interior Design**
+## Quick summary
+
+- Location: c:\xampp\htdocs\mahati
+- Primary folders: `includes/`, `pages/`, `assets/`, `admin/`, `vendor/`
+- Small admin area for viewing submissions is under `admin/`
+- Contact and file submission handlers are in `includes/`
+
+---
+
+## Repo structure (important files)
+
+Top-level
+
+- `index.php` — site entry (loads header/footer and pages)
+- `README.md` — this file
+- `composer.json` / `vendor/` — PHP dependencies (PHPMailer included)
+- `includes/` — config and backend handlers
+- `pages/` — site page templates (home, about, portfolio, contact, services)
+- `assets/` — `css/`, `js/`, `images/`
+- `admin/` — admin pages (`submissions.php`, `view-submissions.php`)
+- `submissions/` — stored form submissions (text files)
+
+Key files in `includes/`
+
+- `config.php` — site constants and configuration
+- `form-handler.php` — contact form processing
+- `file-submission-handler.php` — file upload handling
+- `phpmailer-config.php`, `email-config.php` — email sending setup
+- `header.php`, `footer.php` — shared layout includes
+
+Files you may edit when maintaining the site
+
+- `pages/portfolio.php` — portfolio gallery (JS lives inline or in `assets/js/`)
+- `assets/images/` — images used on site (logos, gallery)
+
+---
+
+## Local setup (Windows + XAMPP)
+
+1. Install XAMPP (https://www.apachefriends.org)
+2. Copy the repository to XAMPP's web root. Default path for XAMPP is `C:\xampp\htdocs\` — place project at `C:\xampp\htdocs\mahati`
+3. Start Apache (and MySQL if needed) via XAMPP Control Panel
+4. If composer packages are required, install Composer (https://getcomposer.org) and run in project root:
+
+```powershell
+cd C:\xampp\htdocs\mahati
+composer install
+```
+
+5. Open your browser and visit: http://localhost/mahati/
+
+Notes:
+- Ensure `assets/images/` and `submissions/` are writable by the web server when uploading files.
+
+---
+
+## Updating portfolio images and titles
+
+Portfolio items are static by default in `pages/portfolio.php` and reference images under `assets/images/` (or `assets/images/portfolio-*`).
+
+If you want the UI to reflect a title change safely:
+
+1. Update the title in `pages/portfolio.php` for that item (or make it dynamic and store items in a DB).
+2. If you rename an image file, update the image path used by the `<img>` tag.
+
+If you need an automated rename-on-title-change behavior, implement it server-side in your admin handler. Keep these rules:
+
+- Sanitize titles to safe filenames (slugify: lowercase, replace non-alphanumerics with `-`).
+- Validate file extensions (allow only `.jpg`, `.jpeg`, `.png`, `.webp`).
+- Never use user-supplied paths directly — always resolve filenames against a single uploads directory.
+
+Example safe steps (high-level):
+
+1. Receive new title and existing image filename (from DB or admin form).
+2. Build safe filename: `slugify($title) . '.' . $ext`.
+3. Use PHP `rename()` to rename the file inside `assets/images/` only if file exists and target doesn't exist.
+4. Update the stored image filename in your data store.
+
+---
+
+## Security notes (short)
+
+- Audit `includes/form-handler.php` and `file-submission-handler.php` for input sanitization and file upload safety.
+- Ensure all user input is validated and sanitized server-side. Use prepared statements for DB operations.
+- Avoid using `innerHTML` with unsanitized content. Use DOM APIs or proper escaping (we updated `pages/portfolio.php` to use DOM-based modal rendering).
+- Keep `submissions/` and other sensitive folders outside the document root if possible or protect them with `.htaccess`.
+
+---
+
+## Testing & debugging
+
+- Use `php -l pages/portfolio.php` to lint PHP files quickly.
+- Check Apache logs (`C:\xampp\apache\logs\error.log`) for runtime errors.
+- Test contact form and file uploads on local setup and verify files land in `submissions/` or the configured uploads folder.
+
+---
+
+## Recommended next steps
+
+1. Move any remaining inline JS from `pages/*.php` into `assets/js/` for better maintainability.
+2. Audit form handlers for sanitization and upload safety (I can open those files and propose patches).
+3. Consider moving portfolio data to a small JSON or DB to allow dynamic updates from an admin panel.
+
+---
+
+If you'd like, I can:
+
+- Audit `includes/form-handler.php` and `file-submission-handler.php` now and implement safe sanitization and file upload handling.
+- Extract the portfolio JS into `assets/js/portfolio.js` and update `pages/portfolio.php` to reference it.
+
+Tell me which task to do next.
+
+---
+
